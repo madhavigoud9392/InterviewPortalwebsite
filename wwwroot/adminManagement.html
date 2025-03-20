@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Management - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/admin-management.css">
+    <script src="../js/admin-management.js" defer></script>
+</head>
+
+<body>
+    <!-- Sidebar Navigation -->
+    <a href="../js/login.html">../js/login.html</a>
+    <div class="sidebar">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+        <h2 class="sidebar-title">Admin Panel</h2>
+        <ul class="sidebar-links">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="dashboard.html">📊 Dashboard</a></li>
+            <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
+            <li><a href="questionBank.html">📚 Question Bank</a></li>
+            <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
+            <li><a href="notifications.html">🔔 Notifications</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header class="main-header">
+            <h1>Admin Management</h1>
+            <p>Manage questions and oversee the interview preparation portal.</p>
+        </header>
+
+        <!-- Admin Options -->
+        <div class="admin-container">
+            <div class="admin-card">
+                <h3>Manage Questions</h3>
+                <div class="button-group">
+                    <button class="btn-primary" id="add-question-btn">➕ Add Question</button>
+                    <button class="btn-primary" id="edit-questions-btn">✏️ Edit Questions</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Question Modal -->
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title">Add New Question</h2>
+            <label for="question-text">Question:</label>
+            <textarea id="question-text" placeholder="Enter question here..."></textarea>
+
+            <label for="question-category">Category:</label>
+            <select id="question-category">
+                <option value="technical">Technical</option>
+                <option value="hr">HR</option>
+                <option value="aptitude">Aptitude</option>
+            </select>
+
+            <button class="btn-primary" id="save-question-btn">Save</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+﻿/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #007bff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    transition: width 0.3s ease-in-out;
+}
+
+    .sidebar h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .sidebar ul li {
+            padding: 15px 20px;
+        }
+
+            .sidebar ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+                .sidebar ul li a:hover {
+                    background: rgba(255, 255, 255, 0.3);
+                }
+
+/* Sidebar Toggle */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    display: none;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 240px;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Interview Options */
+.interview-options {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .btn-primary:hover {
+        background: #0056b3;
+    }
+
+/* Interview Questions */
+.interview-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#questions-list {
+    margin-bottom: 20px;
+}
+
+/* Feedback */
+.feedback-container {
+    margin-top: 20px;
+}
+
+    .feedback-container textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+        overflow: hidden;
+    }
+
+        .sidebar ul li a {
+            font-size: 0;
+        }
+
+    .main-content {
+        margin-left: 80px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

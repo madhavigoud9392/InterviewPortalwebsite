@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="Interview Preparation Portal Logo">
+                <span>Interview Prep</span>
+            </div>
+            <div class="nav-links">
+                <a href="login.html" class="btn" aria-label="Go to Login Page">
+                    <i class="fa-solid fa-sign-in-alt"></i> Login
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Registration Form Container -->
+    <main class="register-container">
+        <h2>Create Your Account</h2>
+        <form id="registerForm">
+            <!-- Username Field -->
+            <div class="input-group">
+                <label for="username"><i class="fa-solid fa-user"></i> Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <span id="email-error" class="error-message"></span>
+            </div>
+
+            <!-- Password Field -->
+            <div class="input-group">
+                <label for="password"><i class="fa-solid fa-lock"></i> Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <span class="show-password" onclick="togglePasswordVisibility('password')">
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
+                <div id="password-strength"></div>
+            </div>
+
+            <!-- Confirm Password Field -->
+            <div class="input-group">
+                <label for="confirm-password"><i class="fa-solid fa-lock"></i> Confirm Password</label>
+                <div class="password-container">
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                    <span class="show-password" onclick="togglePasswordVisibility('confirm-password')">
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
+                <span id="confirm-password-error" class="error-message"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="register-button" type="submit" class="btn-primary">
+                <i class="fa-solid fa-user-plus"></i> Register
+            </button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Interviews - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/mock-interviews.css">
+    <script src="../js/mock-interviews.js" defer></script>
+</head>
+
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+        <h2>Mock Interviews</h2>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="dashboard.html">📊 Dashboard</a></li>
+            <li><a href="questionBank.html">📚 Question Bank</a></li>
+            <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
+            <li><a href="notifications.html">🔔 Notifications</a></li>
+            <li><a href="adminManagement.html">⚙️ Admin</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Mock Interviews</h1>
+        <p>Select an interview type to begin your practice session.</p>
+
+        <!-- Interview Options -->
+        <div class="interview-options">
+            <button class="btn-primary" onclick="startMockInterview('technical')">💡 Technical Interview</button>
+            <button class="btn-primary" onclick="startMockInterview('hr')">🗣️ HR Interview</button>
+            <button class="btn-primary" onclick="startMockInterview('aptitude')">📐 Aptitude Interview</button>
+        </div>
+
+        <!-- Interview Questions -->
+        <div class="interview-container" id="interview-container">
+            <h2>Interview Questions</h2>
+            <div id="questions-list"></div>
+
+            <!-- Feedback Section -->
+            <div class="feedback-container">
+                <h3>Your Feedback</h3>
+                <textarea id="feedback" rows="5" placeholder="Provide your feedback here..."></textarea>
+                <button class="btn-primary" onclick="submitFeedback()">Submit Feedback</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\InterviewPreparationPortal.props" />
+</Project>

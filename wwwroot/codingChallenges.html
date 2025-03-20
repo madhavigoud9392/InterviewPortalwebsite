@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenges - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/coding-challenges.css">
+    <script src="../js/coding-challenges.js" defer></script>
+</head>
+
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+        <h2 class="sidebar-title">Coding Challenges</h2>
+        <ul class="sidebar-links">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="dashboard.html">📊 Dashboard</a></li>
+            <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
+            <li><a href="questionBank.html">📚 Question Bank</a></li>
+            <li><a href="notifications.html">🔔 Notifications</a></li>
+            <li><a href="adminManagement.html">⚙️ Admin</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header class="main-header">
+            <h1>Coding Challenges</h1>
+            <p>Test your skills with real-world coding problems.</p>
+        </header>
+
+        <!-- Coding Challenge Card -->
+        <div class="coding-challenge-container">
+            <div class="coding-challenge-card">
+                <h3>Challenge 1: FizzBuzz</h3>
+                <p>
+                    Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz",
+                    for multiples of 5, print "Buzz", and for multiples of both, print "FizzBuzz".
+                </p>
+
+                <textarea id="code-editor" placeholder="Write your solution in JavaScript..."></textarea>
+                <button class="btn-primary" onclick="runCode()">Run Code</button>
+
+                <div class="output-container">
+                    <h4>Output:</h4>
+                    <pre id="output"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

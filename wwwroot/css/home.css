@@ -1,0 +1,133 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px 30px;
+    color: white;
+}
+
+    .navbar .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .navbar nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+        .navbar nav ul li {
+            display: inline;
+        }
+
+            .navbar nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                transition: 0.3s;
+            }
+
+                .navbar nav ul li a:hover {
+                    color: #ffdd57;
+                }
+
+.auth-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.auth-buttons .btn {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.auth-buttons .btn-primary {
+    background: white;
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
+}
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+        background: white;
+        color: #007bff;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+        .hero .btn:hover {
+            background: #ffdd57;
+        }
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+    .features h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .feature i {
+        font-size: 30px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+}

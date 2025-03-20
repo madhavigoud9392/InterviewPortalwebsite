@@ -1,0 +1,153 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\adminManagement.html",
+      "PackagePath": "staticwebassets\\adminManagement.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\codingChallenges.html",
+      "PackagePath": "staticwebassets\\codingChallenges.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\admin-management.css",
+      "PackagePath": "staticwebassets\\css\\admin-management.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\coding-challenges.css",
+      "PackagePath": "staticwebassets\\css\\coding-challenges.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\mock-interviews.css",
+      "PackagePath": "staticwebassets\\css\\mock-interviews.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\notification.css",
+      "PackagePath": "staticwebassets\\css\\notification.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\questionbank.css",
+      "PackagePath": "staticwebassets\\css\\questionbank.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\sidebar.css",
+      "PackagePath": "staticwebassets\\css\\sidebar.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\dashboard.html",
+      "PackagePath": "staticwebassets\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\profile-placeholder.png",
+      "PackagePath": "staticwebassets\\images\\profile-placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\logout.html",
+      "PackagePath": "staticwebassets\\logout.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\mockInterviews.html",
+      "PackagePath": "staticwebassets\\mockInterviews.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\notifications.html",
+      "PackagePath": "staticwebassets\\notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\aptitude_interview.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\aptitude_interview.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\coding_challenges.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\hr_interview.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\mock_interview_guide.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\technical_interview.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\profile.html",
+      "PackagePath": "staticwebassets\\profile.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\questionBank.html",
+      "PackagePath": "staticwebassets\\questionBank.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\scripts.js",
+      "PackagePath": "staticwebassets\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\sidebar.html",
+      "PackagePath": "staticwebassets\\sidebar.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InterviewPreparationPortal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.InterviewPreparationPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.InterviewPreparationPortal.props",
+      "PackagePath": "build\\InterviewPreparationPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.InterviewPreparationPortal.props",
+      "PackagePath": "buildMultiTargeting\\InterviewPreparationPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.InterviewPreparationPortal.props",
+      "PackagePath": "buildTransitive\\InterviewPreparationPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

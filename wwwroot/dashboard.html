@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="../js/scripts.js" defer></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Profile</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="mockInterviews.html">Mock Interviews</a></li>
+            <li><a href="questionBank.html">Question Bank</a></li>
+            <li><a href="codingChallenges.html">Coding Challenges</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="logout.html" class="logout">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header class="profile-header">
+            <h1>User Profile</h1>
+        </header>
+
+        <div class="profile-container">
+            <img src="../images/profile-placeholder.png" alt="Profile Picture" class="profile-pic">
+            <h2 id="username">John Doe</h2>
+            <p>Email: <span id="email">johndoe@example.com</span></p>
+            <p>Role: <span id="role">Student</span></p>
+            <button id="edit-profile-btn">Edit Profile</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

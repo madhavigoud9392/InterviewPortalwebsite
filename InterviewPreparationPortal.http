@@ -1,0 +1,6 @@
+@InterviewPreparationPortalm_HostAddress = https://localhost:7121/swagger/index.html
+
+GET {{InterviewPreparationPortalm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

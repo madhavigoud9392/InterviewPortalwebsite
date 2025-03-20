@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Bank - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/questionbank.css">
+    <script src="../js/questionbank.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+        <ul>
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="dashboard.html">📊 Dashboard</a></li>
+            <li><a href="questionBank.html" class="active">📚 Question Bank</a></li>
+            <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
+            <li><a href="notifications.html">🔔 Notifications</a></li>
+            <li><a href="adminManagement.html">⚙️ Admin</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="question-bank-card">
+            <h1>Question Bank</h1>
+            <p>Browse through categorized interview questions to prepare effectively.</p>
+
+            <div class="question-bank">
+                <div class="question-category">
+                    <button onclick="filterQuestions('java')">Java</button>
+                    <button onclick="filterQuestions('python')">Python</button>
+                    <button onclick="filterQuestions('c')">C</button>
+                    <button onclick="filterQuestions('csharp')">C#</button>
+                    <button onclick="filterQuestions('cpp')">C++</button>
+                </div>
+                <div id="question-list">
+                    <!-- Questions will be dynamically loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const questions = {
+            java: [
+                "What is Java and its main features?",
+                "Explain OOP concepts in Java.",
+                "What is the difference between HashMap and HashTable?"
+            ],
+            python: [
+                "What are Python's key features?",
+                "Explain Python's memory management.",
+                "What is the difference between deep copy and shallow copy?"
+            ],
+            c: [
+                "What is the difference between C and C++?",
+                "Explain pointers in C.",
+                "What is the purpose of the `static` keyword?"
+            ],
+            csharp: [
+                "What is C# used for?",
+                "Explain the concept of delegates in C#.",
+                "What is the difference between `ref` and `out` parameters?"
+            ],
+            cpp: [
+                "What is polymorphism in C++?",
+                "Explain the difference between `new` and `malloc()`.",
+                "What are friend functions in C++?"
+            ]
+        };
+
+        function filterQuestions(category) {
+            const questionList = document.getElementById('question-list');
+            questionList.innerHTML = "";
+
+            questions[category].forEach(question => {
+                let questionItem = document.createElement('p');
+                questionItem.textContent = question;
+                questionList.appendChild(questionItem);
+            });
+        }
+    </script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

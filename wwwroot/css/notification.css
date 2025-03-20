@@ -1,0 +1,148 @@
+﻿/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #007bff;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    transition: width 0.3s ease-in-out;
+}
+
+    .sidebar h2 {
+        text-align: center;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .sidebar ul li {
+            padding: 10px 0;
+        }
+
+            .sidebar ul li a {
+                color: white;
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+
+                .sidebar ul li a:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                }
+
+/* Sidebar Toggle */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+        overflow: hidden;
+    }
+
+        .sidebar.show {
+            width: 250px;
+        }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+/* Notifications */
+.notifications-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: 0.3s;
+}
+
+    .notification:hover {
+        transform: scale(1.02);
+    }
+
+.notification-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.timestamp {
+    font-size: 0.8rem;
+    color: gray;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/* Dismiss Button */
+.dismiss-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .dismiss-btn:hover {
+        background: #c82333;
+    }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
