@@ -17,6 +17,7 @@ body {
     left: 0;
     padding-top: 20px;
     transition: width 0.3s ease-in-out;
+    z-index: 1000; /* Ensures sidebar stays on top */
 }
 
     .sidebar h2 {
@@ -44,92 +45,197 @@ body {
                     background: rgba(255, 255, 255, 0.3);
                 }
 
-/* Sidebar Toggle */
-.menu-toggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px;
-    display: none;
+.sidebar-links li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
 }
 
 /* Main Content */
 .main-content {
-    margin-left: 240px;
-    padding: 20px;
-    transition: margin-left 0.3s ease-in-out;
+    margin-left: 300px; /* Ensures the content doesn't overlap the sidebar */
+    padding: 40px;
+ 
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #2d3b48;
+    margin-bottom: 20px;
 }
+
+h2, h3 {
+    color: #2d3b48;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04c2c9;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #028a8a;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
 
 /* Interview Options */
 .interview-options {
     display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.btn-primary {
-    background: #007bff;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-    .btn-primary:hover {
-        background: #0056b3;
-    }
-
-/* Interview Questions */
-.interview-container {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#questions-list {
-    margin-bottom: 20px;
-}
-
-/* Feedback */
-.feedback-container {
+    justify-content: space-around;
     margin-top: 20px;
 }
 
-    .feedback-container textarea {
-        width: 100%;
-        padding: 10px;
+    .interview-options .btn-primary {
+        padding: 15px 30px;
+        font-size: 1.2em;
+        background-color: #04c2c9;
+        color: white;
+        border: none;
         border-radius: 5px;
-        border: 1px solid #ccc;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
     }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 60px;
-        overflow: hidden;
-    }
-
-        .sidebar ul li a {
-            font-size: 0;
+        .interview-options .btn-primary:hover {
+            background-color: #028a8a;
         }
 
-    .main-content {
-        margin-left: 80px;
+/* Hidden Class (for hiding elements) */
+.hidden {
+    display: none;
+}
+
+/* AI Interview Section */
+#ai-interview {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#ai-question {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#ai-feedback {
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #04c2c9;
+}
+
+/* Industry Interview Section */
+#industry-selection select,
+#industry-response {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+#industry-interview {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Peer-to-Peer Section */
+#peer-interview {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Toast Notifications (for success/error messages) */
+.toastify {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+    .toastify.success {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .toastify.error {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .toastify.info {
+        background-color: #2196F3;
+        color: white;
+    }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0; /* Hides the sidebar on mobile */
+        display: none;
     }
 
     .menu-toggle {
         display: block;
+        font-size: 2em;
+        cursor: pointer;
+        color: white;
+        margin-top: 20px;
     }
+
+    .main-content {
+        margin-left: 0; /* Adjusts margin for mobile view */
+        padding: 20px;
+    }
+
+    .interview-options {
+        flex-direction: column;
+    }
+
+        .interview-options .btn-primary {
+            margin-top: 10px;
+            width: 100%;
+        }
 }

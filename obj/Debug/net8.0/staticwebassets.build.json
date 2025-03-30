@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1wyjq4WQZwRlBHwxRoYgG+XNFaNc5C4ZP2RLbb8S3+Q=",
+  "Hash": "ifBiTLWWf8y+ghb6iMKo/tLE5jj+x0j1aQy2vncdsgI=",
   "Source": "InterviewPreparationPortal",
   "BasePath": "_content/InterviewPreparationPortal",
   "Mode": "Default",
@@ -10,17 +10,38 @@
     {
       "Name": "InterviewPreparationPortal\\wwwroot",
       "Source": "InterviewPreparationPortal",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\adminManagement.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminLogin.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "adminLogin#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "czmgnybizf",
+      "Integrity": "qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\adminLogin.html"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminManagement.html",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "adminManagement#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -31,17 +52,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8a1ozdl5wr",
-      "Integrity": "gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA=",
+      "Fingerprint": "jz37wy8ppo",
+      "Integrity": "EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\adminManagement.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\codingChallenges.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\codingChallenges.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "codingChallenges#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -52,17 +73,38 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gviy08gg5v",
-      "Integrity": "DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08=",
+      "Fingerprint": "zk1sfoo9k1",
+      "Integrity": "/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\codingChallenges.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\admin-management.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\adminLogin.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "css/adminLogin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu3ppvqhkh",
+      "Integrity": "SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\adminLogin.css"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\admin-management.css",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/admin-management#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "io9u9pkl25",
-      "Integrity": "grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c=",
+      "Fingerprint": "4cs5mna7vm",
+      "Integrity": "tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin-management.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\coding-challenges.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\coding-challenges.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/coding-challenges#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +136,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1ccbmfatea",
-      "Integrity": "z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=",
+      "Fingerprint": "pyrebvyezg",
+      "Integrity": "EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\coding-challenges.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\dashboard.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\dashboard.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/dashboard#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -115,17 +157,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1ccbmfatea",
-      "Integrity": "z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=",
+      "Fingerprint": "yw81x6dh33",
+      "Integrity": "nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\home.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/home#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -136,17 +178,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e9dzh4pat8",
-      "Integrity": "HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s=",
+      "Fingerprint": "17wrigg2j4",
+      "Integrity": "QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\login.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/login#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -157,17 +199,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "697b5rqys3",
-      "Integrity": "eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4=",
+      "Fingerprint": "59ce4hm4ky",
+      "Integrity": "if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\mock-interviews.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\mock-interviews.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/mock-interviews#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -178,17 +220,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "za5udogyhd",
-      "Integrity": "W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js=",
+      "Fingerprint": "izc72zfbbr",
+      "Integrity": "gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\mock-interviews.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\notification.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\notification.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/notification#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -199,17 +241,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f8dr5xie6c",
-      "Integrity": "v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs=",
+      "Fingerprint": "8btrqmu48g",
+      "Integrity": "3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\notification.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\profile.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\profile.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/profile#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -220,17 +262,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i3d1cpriab",
-      "Integrity": "ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0=",
+      "Fingerprint": "i3g2fvma4m",
+      "Integrity": "AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\questionbank.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\questionbank.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/questionbank#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -241,17 +283,38 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6n9uhawo40",
-      "Integrity": "rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY=",
+      "Fingerprint": "3aunc57488",
+      "Integrity": "9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\questionbank.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\register.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\quiz.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "css/quiz#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jm14xij293",
+      "Integrity": "xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\quiz.css"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\register.css",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/register#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -262,17 +325,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1rpac3j34d",
-      "Integrity": "3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E=",
+      "Fingerprint": "0q3s891om0",
+      "Integrity": "2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\sidebar.css",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\sidebar.css",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "css/sidebar#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\css\\sidebar.css"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\dashboard.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\dashboard.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "dashboard#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -304,17 +367,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kpu1ufjkzx",
-      "Integrity": "SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI=",
+      "Fingerprint": "729fh2fnew",
+      "Integrity": "YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dashboard.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\favicon.ico",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -332,10 +395,73 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\logo.jpg",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\forgotPassword.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "forgotPassword#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "95onec5p81",
+      "Integrity": "/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\forgotPassword.html"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\backgound.jpg",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "images/backgound#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n8ko5d5gs7",
+      "Integrity": "d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgound.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\dashboard.jpg",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "images/dashboard#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7mmlrsz43s",
+      "Integrity": "v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dashboard.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\logo.jpg",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "images/logo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\profile-placeholder.png",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\profile-placeholder.png",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "images/profile-placeholder#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-placeholder.png"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\index.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -388,17 +514,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9fin7cms27",
-      "Integrity": "BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs=",
+      "Fingerprint": "sfejyd6pmw",
+      "Integrity": "KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\login.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -409,17 +535,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xxef87zeca",
-      "Integrity": "ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss=",
+      "Fingerprint": "7gyc5s69eg",
+      "Integrity": "mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\logout.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\logout.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "logout#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -437,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\logout.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\mockInterviews.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\mockInterviews.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "mockInterviews#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -451,17 +577,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6cd6elqowd",
-      "Integrity": "Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI=",
+      "Fingerprint": "bz35mhq2ac",
+      "Integrity": "Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mockInterviews.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\notifications.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\notifications.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "notifications#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -472,17 +598,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "14hg5wiozn",
-      "Integrity": "oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs=",
+      "Fingerprint": "ioul02aqw4",
+      "Integrity": "kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\notifications.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\aptitude_interview.pdf",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\aptitude_interview.pdf",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "pdfs/aptitude_interview#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -500,10 +626,31 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\aptitude_interview.pdf"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\C_Questions.pdf",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "pdfs/C_Questions#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eid8ztmmbl",
+      "Integrity": "mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\C_Questions.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "pdfs/coding_challenges#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -521,10 +668,52 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\coding_challenges.pdf"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CPP_Questions.pdf",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "pdfs/CPP_Questions#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwtiafg7ju",
+      "Integrity": "JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\CPP_Questions.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CSharp_Questions.pdf",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "pdfs/CSharp_Questions#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3pcxsvtozg",
+      "Integrity": "hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\CSharp_Questions.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "pdfs/hr_interview#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -542,10 +731,31 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\hr_interview.pdf"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Java_Questions (3).pdf",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "pdfs/Java_Questions (3)#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "82tcweeerl",
+      "Integrity": "4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\Java_Questions (3).pdf"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "pdfs/mock_interview_guide#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -563,10 +773,31 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\mock_interview_guide.pdf"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Python_Questions.pdf",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "pdfs/Python_Questions#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ubqycdh72",
+      "Integrity": "kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pdfs\\Python_Questions.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "pdfs/technical_interview#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -584,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\technical_interview.pdf"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\profile.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\profile.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "profile#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -598,17 +829,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k70plqdnc1",
-      "Integrity": "sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ=",
+      "Fingerprint": "shmd7js46o",
+      "Integrity": "IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\profile.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\questionBank.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questionBank.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "questionBank#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -619,17 +850,59 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rkkebmw77i",
-      "Integrity": "Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE=",
+      "Fingerprint": "anxk6lc06y",
+      "Integrity": "qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\questionBank.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\register.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questions.json",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "questions#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2skt5cgbd2",
+      "Integrity": "cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\questions.json"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\Quiz.html",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
+      "BasePath": "_content/InterviewPreparationPortal",
+      "RelativePath": "Quiz#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0nszxe1rnr",
+      "Integrity": "vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Quiz.html"
+    },
+    {
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\register.html",
+      "SourceId": "InterviewPreparationPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "register#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -640,17 +913,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "950cv265u8",
-      "Integrity": "Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU=",
+      "Fingerprint": "l2388ert6l",
+      "Integrity": "jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\register.html"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\scripts.js",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\scripts.js",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "scripts#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -661,17 +934,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vftkqo3sl2",
-      "Integrity": "C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo=",
+      "Fingerprint": "m1k5wrbfql",
+      "Integrity": "utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\sidebar.html",
+      "Identity": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\sidebar.html",
       "SourceId": "InterviewPreparationPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\",
       "BasePath": "_content/InterviewPreparationPortal",
       "RelativePath": "sidebar#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -691,8 +964,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "adminManagement.8a1ozdl5wr.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\adminManagement.html",
+      "Route": "adminLogin.czmgnybizf.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminLogin.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -701,7 +974,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2812"
+          "Value": "3748"
         },
         {
           "Name": "Content-Type",
@@ -709,11 +982,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA=\""
+          "Value": "\"qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Fri, 28 Mar 2025 05:09:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -723,7 +996,126 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8a1ozdl5wr"
+          "Value": "czmgnybizf"
+        },
+        {
+          "Name": "label",
+          "Value": "adminLogin.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q="
+        }
+      ]
+    },
+    {
+      "Route": "adminLogin.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminLogin.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 05:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q="
+        }
+      ]
+    },
+    {
+      "Route": "adminManagement.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminManagement.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg="
+        }
+      ]
+    },
+    {
+      "Route": "adminManagement.jz37wy8ppo.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminManagement.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 18:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jz37wy8ppo"
         },
         {
           "Name": "label",
@@ -731,13 +1123,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA="
+          "Value": "sha256-EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg="
         }
       ]
     },
     {
-      "Route": "adminManagement.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\adminManagement.html",
+      "Route": "codingChallenges.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\codingChallenges.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -746,7 +1138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2812"
+          "Value": "4309"
         },
         {
           "Name": "Content-Type",
@@ -754,11 +1146,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA=\""
+          "Value": "\"/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Fri, 28 Mar 2025 04:25:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -768,13 +1160,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA="
+          "Value": "sha256-/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug="
         }
       ]
     },
     {
-      "Route": "codingChallenges.gviy08gg5v.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\codingChallenges.html",
+      "Route": "codingChallenges.zk1sfoo9k1.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\codingChallenges.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -783,7 +1175,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2296"
+          "Value": "4309"
         },
         {
           "Name": "Content-Type",
@@ -791,11 +1183,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08=\""
+          "Value": "\"/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Fri, 28 Mar 2025 04:25:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -805,7 +1197,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gviy08gg5v"
+          "Value": "zk1sfoo9k1"
         },
         {
           "Name": "label",
@@ -813,13 +1205,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08="
+          "Value": "sha256-/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug="
         }
       ]
     },
     {
-      "Route": "codingChallenges.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\codingChallenges.html",
+      "Route": "css/adminLogin.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\adminLogin.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -828,19 +1220,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2296"
+          "Value": "1881"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08=\""
+          "Value": "\"SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Thu, 27 Mar 2025 12:44:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -850,13 +1242,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08="
+          "Value": "sha256-SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw="
         }
       ]
     },
     {
-      "Route": "css/admin-management.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\admin-management.css",
+      "Route": "css/adminLogin.eu3ppvqhkh.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\adminLogin.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -865,7 +1257,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2838"
+          "Value": "1881"
         },
         {
           "Name": "Content-Type",
@@ -873,48 +1265,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c=\""
+          "Value": "\"SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin-management.io9u9pkl25.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\admin-management.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2838"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Thu, 27 Mar 2025 12:44:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -924,7 +1279,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "io9u9pkl25"
+          "Value": "eu3ppvqhkh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/adminLogin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-management.4cs5mna7vm.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\admin-management.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4434"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4cs5mna7vm"
         },
         {
           "Name": "label",
@@ -932,13 +1332,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c="
+          "Value": "sha256-tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA="
         }
       ]
     },
     {
-      "Route": "css/coding-challenges.1ccbmfatea.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\coding-challenges.css",
+      "Route": "css/admin-management.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\admin-management.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -947,7 +1347,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2740"
+          "Value": "4434"
         },
         {
           "Name": "Content-Type",
@@ -955,11 +1355,85 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=\""
+          "Value": "\"tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Thu, 27 Mar 2025 11:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA="
+        }
+      ]
+    },
+    {
+      "Route": "css/coding-challenges.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\coding-challenges.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:15:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU="
+        }
+      ]
+    },
+    {
+      "Route": "css/coding-challenges.pyrebvyezg.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\coding-challenges.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:15:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -969,7 +1443,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ccbmfatea"
+          "Value": "pyrebvyezg"
         },
         {
           "Name": "label",
@@ -977,13 +1451,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0="
+          "Value": "sha256-EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU="
         }
       ]
     },
     {
-      "Route": "css/coding-challenges.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\coding-challenges.css",
+      "Route": "css/dashboard.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -992,7 +1466,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2740"
+          "Value": "2599"
         },
         {
           "Name": "Content-Type",
@@ -1000,11 +1474,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=\""
+          "Value": "\"nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Fri, 28 Mar 2025 04:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1014,13 +1488,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0="
+          "Value": "sha256-nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk="
         }
       ]
     },
     {
-      "Route": "css/dashboard.1ccbmfatea.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\dashboard.css",
+      "Route": "css/dashboard.yw81x6dh33.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1029,7 +1503,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2740"
+          "Value": "2599"
         },
         {
           "Name": "Content-Type",
@@ -1037,11 +1511,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=\""
+          "Value": "\"nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Fri, 28 Mar 2025 04:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1051,7 +1525,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1ccbmfatea"
+          "Value": "yw81x6dh33"
         },
         {
           "Name": "label",
@@ -1059,13 +1533,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0="
+          "Value": "sha256-nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk="
         }
       ]
     },
     {
-      "Route": "css/dashboard.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\dashboard.css",
+      "Route": "css/home.17wrigg2j4.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1074,7 +1548,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2740"
+          "Value": "6277"
         },
         {
           "Name": "Content-Type",
@@ -1082,85 +1556,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=\""
+          "Value": "\"QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0="
-        }
-      ]
-    },
-    {
-      "Route": "css/home.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\home.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s="
-        }
-      ]
-    },
-    {
-      "Route": "css/home.e9dzh4pat8.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\home.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Thu, 27 Mar 2025 12:22:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1170,7 +1570,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e9dzh4pat8"
+          "Value": "17wrigg2j4"
         },
         {
           "Name": "label",
@@ -1178,13 +1578,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s="
+          "Value": "sha256-QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM="
         }
       ]
     },
     {
-      "Route": "css/login.697b5rqys3.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\login.css",
+      "Route": "css/home.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\home.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1193,7 +1593,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2484"
+          "Value": "6277"
         },
         {
           "Name": "Content-Type",
@@ -1201,11 +1601,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4=\""
+          "Value": "\"QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Thu, 27 Mar 2025 12:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.59ce4hm4ky.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 12:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1215,7 +1652,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "697b5rqys3"
+          "Value": "59ce4hm4ky"
         },
         {
           "Name": "label",
@@ -1223,13 +1660,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4="
+          "Value": "sha256-if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E="
         }
       ]
     },
     {
       "Route": "css/login.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\login.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1238,7 +1675,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2484"
+          "Value": "5150"
         },
         {
           "Name": "Content-Type",
@@ -1246,11 +1683,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4=\""
+          "Value": "\"if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Thu, 27 Mar 2025 12:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1260,13 +1697,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4="
+          "Value": "sha256-if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E="
         }
       ]
     },
     {
       "Route": "css/mock-interviews.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\mock-interviews.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\mock-interviews.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1275,7 +1712,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2436"
+          "Value": "4755"
         },
         {
           "Name": "Content-Type",
@@ -1283,11 +1720,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js=\""
+          "Value": "\"gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Fri, 28 Mar 2025 04:57:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1297,13 +1734,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js="
+          "Value": "sha256-gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo="
         }
       ]
     },
     {
-      "Route": "css/mock-interviews.za5udogyhd.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\mock-interviews.css",
+      "Route": "css/mock-interviews.izc72zfbbr.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\mock-interviews.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1312,7 +1749,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2436"
+          "Value": "4755"
         },
         {
           "Name": "Content-Type",
@@ -1320,11 +1757,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js=\""
+          "Value": "\"gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Fri, 28 Mar 2025 04:57:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1334,7 +1771,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "za5udogyhd"
+          "Value": "izc72zfbbr"
         },
         {
           "Name": "label",
@@ -1342,13 +1779,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js="
+          "Value": "sha256-gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo="
         }
       ]
     },
     {
-      "Route": "css/notification.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\notification.css",
+      "Route": "css/notification.8btrqmu48g.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\notification.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1357,7 +1794,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2741"
+          "Value": "2899"
         },
         {
           "Name": "Content-Type",
@@ -1365,48 +1802,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs=\""
+          "Value": "\"3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs="
-        }
-      ]
-    },
-    {
-      "Route": "css/notification.f8dr5xie6c.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\notification.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2741"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:44:47 GMT"
+          "Value": "Sun, 30 Mar 2025 14:54:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,7 +1816,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f8dr5xie6c"
+          "Value": "8btrqmu48g"
         },
         {
           "Name": "label",
@@ -1424,13 +1824,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs="
+          "Value": "sha256-3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8="
         }
       ]
     },
     {
-      "Route": "css/profile.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\profile.css",
+      "Route": "css/notification.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\notification.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1439,7 +1839,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3075"
+          "Value": "2899"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1847,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0=\""
+          "Value": "\"3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:23:58 GMT"
+          "Value": "Sun, 30 Mar 2025 14:54:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,13 +1861,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0="
+          "Value": "sha256-3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8="
         }
       ]
     },
     {
-      "Route": "css/profile.i3d1cpriab.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\profile.css",
+      "Route": "css/profile.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\profile.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1476,7 +1876,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3075"
+          "Value": "888"
         },
         {
           "Name": "Content-Type",
@@ -1484,11 +1884,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0=\""
+          "Value": "\"AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:23:58 GMT"
+          "Value": "Tue, 25 Mar 2025 02:39:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.i3g2fvma4m.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "888"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 02:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1498,7 +1935,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "i3d1cpriab"
+          "Value": "i3g2fvma4m"
         },
         {
           "Name": "label",
@@ -1506,13 +1943,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0="
+          "Value": "sha256-AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw="
         }
       ]
     },
     {
-      "Route": "css/questionbank.6n9uhawo40.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\questionbank.css",
+      "Route": "css/questionbank.3aunc57488.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\questionbank.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1521,7 +1958,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2928"
+          "Value": "2999"
         },
         {
           "Name": "Content-Type",
@@ -1529,11 +1966,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY=\""
+          "Value": "\"9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:42:07 GMT"
+          "Value": "Tue, 25 Mar 2025 16:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1543,7 +1980,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6n9uhawo40"
+          "Value": "3aunc57488"
         },
         {
           "Name": "label",
@@ -1551,13 +1988,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY="
+          "Value": "sha256-9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs="
         }
       ]
     },
     {
       "Route": "css/questionbank.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\questionbank.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\questionbank.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1566,7 +2003,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2928"
+          "Value": "2999"
         },
         {
           "Name": "Content-Type",
@@ -1574,11 +2011,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY=\""
+          "Value": "\"9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:42:07 GMT"
+          "Value": "Tue, 25 Mar 2025 16:55:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1588,13 +2025,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY="
+          "Value": "sha256-9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs="
         }
       ]
     },
     {
-      "Route": "css/register.1rpac3j34d.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\register.css",
+      "Route": "css/quiz.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\quiz.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1603,7 +2040,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "5560"
         },
         {
           "Name": "Content-Type",
@@ -1611,11 +2048,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E=\""
+          "Value": "\"xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 07:10:27 GMT"
+          "Value": "Sun, 30 Mar 2025 08:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8="
+        }
+      ]
+    },
+    {
+      "Route": "css/quiz.jm14xij293.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\quiz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 08:51:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1625,21 +2099,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1rpac3j34d"
+          "Value": "jm14xij293"
         },
         {
           "Name": "label",
-          "Value": "css/register.css"
+          "Value": "css/quiz.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E="
+          "Value": "sha256-xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8="
         }
       ]
     },
     {
-      "Route": "css/register.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\register.css",
+      "Route": "css/register.0q3s891om0.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\register.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1648,7 +2122,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "2903"
         },
         {
           "Name": "Content-Type",
@@ -1656,11 +2130,56 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E=\""
+          "Value": "\"2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Mar 2025 07:10:27 GMT"
+          "Value": "Tue, 25 Mar 2025 02:46:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0q3s891om0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/register.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc="
+        }
+      ]
+    },
+    {
+      "Route": "css/register.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\register.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 02:46:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1670,13 +2189,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E="
+          "Value": "sha256-2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc="
         }
       ]
     },
     {
       "Route": "css/sidebar.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\sidebar.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\sidebar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1697,7 +2216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:44:07 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1713,7 +2232,7 @@
     },
     {
       "Route": "css/sidebar.tyenup21qq.css",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\sidebar.css",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\sidebar.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1734,7 +2253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:44:07 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1757,8 +2276,8 @@
       ]
     },
     {
-      "Route": "dashboard.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\dashboard.html",
+      "Route": "dashboard.729fh2fnew.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\dashboard.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1767,7 +2286,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1610"
+          "Value": "2459"
         },
         {
           "Name": "Content-Type",
@@ -1775,48 +2294,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI=\""
+          "Value": "\"YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI="
-        }
-      ]
-    },
-    {
-      "Route": "dashboard.kpu1ufjkzx.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\dashboard.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1610"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Fri, 28 Mar 2025 04:14:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1826,7 +2308,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kpu1ufjkzx"
+          "Value": "729fh2fnew"
         },
         {
           "Name": "label",
@@ -1834,13 +2316,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI="
+          "Value": "sha256-YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 04:14:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc="
         }
       ]
     },
     {
       "Route": "favicon.7hkbbd8ng4.ico",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1861,7 +2380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 14:22:56 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1885,7 +2404,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1906,7 +2425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Feb 2025 14:22:56 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1921,8 +2440,254 @@
       ]
     },
     {
+      "Route": "forgotPassword.95onec5p81.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\forgotPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "95onec5p81"
+        },
+        {
+          "Name": "label",
+          "Value": "forgotPassword.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI="
+        }
+      ]
+    },
+    {
+      "Route": "forgotPassword.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\forgotPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3608"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 17:48:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgound.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\backgound.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1454315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 17:03:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgound.n8ko5d5gs7.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\backgound.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1454315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 17:03:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n8ko5d5gs7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgound.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I="
+        }
+      ]
+    },
+    {
+      "Route": "images/dashboard.7mmlrsz43s.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\dashboard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "603906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 03:17:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mmlrsz43s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dashboard.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk="
+        }
+      ]
+    },
+    {
+      "Route": "images/dashboard.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\dashboard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "603906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 03:17:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk="
+        }
+      ]
+    },
+    {
       "Route": "images/logo.jpg",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\logo.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1943,7 +2708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:34:12 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1959,7 +2724,7 @@
     },
     {
       "Route": "images/logo.xgj5xraz3r.jpg",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\logo.jpg",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1980,7 +2745,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:34:12 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2004,7 +2769,7 @@
     },
     {
       "Route": "images/profile-placeholder.nnco6ay5j6.png",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\profile-placeholder.png",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\profile-placeholder.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2025,7 +2790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:00:59 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2049,7 +2814,7 @@
     },
     {
       "Route": "images/profile-placeholder.png",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\profile-placeholder.png",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\profile-placeholder.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2070,7 +2835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:00:59 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2085,8 +2850,8 @@
       ]
     },
     {
-      "Route": "index.9fin7cms27.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\index.html",
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2095,7 +2860,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2802"
+          "Value": "4122"
         },
         {
           "Name": "Content-Type",
@@ -2103,11 +2868,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs=\""
+          "Value": "\"KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:44:30 GMT"
+          "Value": "Fri, 28 Mar 2025 01:57:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw="
+        }
+      ]
+    },
+    {
+      "Route": "index.sfejyd6pmw.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:57:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2117,7 +2919,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9fin7cms27"
+          "Value": "sfejyd6pmw"
         },
         {
           "Name": "label",
@@ -2125,13 +2927,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs="
+          "Value": "sha256-KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\index.html",
+      "Route": "login.7gyc5s69eg.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2140,7 +2942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2802"
+          "Value": "2841"
         },
         {
           "Name": "Content-Type",
@@ -2148,85 +2950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs=\""
+          "Value": "\"mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:44:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs="
-        }
-      ]
-    },
-    {
-      "Route": "login.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 09:24:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss="
-        }
-      ]
-    },
-    {
-      "Route": "login.xxef87zeca.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 09:24:06 GMT"
+          "Value": "Thu, 27 Mar 2025 14:08:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2236,7 +2964,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xxef87zeca"
+          "Value": "7gyc5s69eg"
         },
         {
           "Name": "label",
@@ -2244,13 +2972,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss="
+          "Value": "sha256-mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 14:08:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540="
         }
       ]
     },
     {
       "Route": "logout.cu9lj396vi.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\logout.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\logout.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2271,7 +3036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:29:19 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2295,7 +3060,7 @@
     },
     {
       "Route": "logout.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\logout.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\logout.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2316,7 +3081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:29:19 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2331,8 +3096,8 @@
       ]
     },
     {
-      "Route": "mockInterviews.6cd6elqowd.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\mockInterviews.html",
+      "Route": "mockInterviews.bz35mhq2ac.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\mockInterviews.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2341,7 +3106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2235"
+          "Value": "13745"
         },
         {
           "Name": "Content-Type",
@@ -2349,11 +3114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI=\""
+          "Value": "\"Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:32:44 GMT"
+          "Value": "Fri, 28 Mar 2025 06:04:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2363,7 +3128,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6cd6elqowd"
+          "Value": "bz35mhq2ac"
         },
         {
           "Name": "label",
@@ -2371,13 +3136,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI="
+          "Value": "sha256-Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0="
         }
       ]
     },
     {
       "Route": "mockInterviews.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\mockInterviews.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\mockInterviews.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2386,7 +3151,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2235"
+          "Value": "13745"
         },
         {
           "Name": "Content-Type",
@@ -2394,11 +3159,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI=\""
+          "Value": "\"Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:32:44 GMT"
+          "Value": "Fri, 28 Mar 2025 06:04:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2408,13 +3173,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI="
+          "Value": "sha256-Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0="
         }
       ]
     },
     {
-      "Route": "notifications.14hg5wiozn.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\notifications.html",
+      "Route": "notifications.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\notifications.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2423,7 +3188,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2034"
+          "Value": "3743"
         },
         {
           "Name": "Content-Type",
@@ -2431,11 +3196,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs=\""
+          "Value": "\"kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
+          "Value": "Sun, 30 Mar 2025 14:52:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0="
+        }
+      ]
+    },
+    {
+      "Route": "notifications.ioul02aqw4.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\notifications.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3743"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 14:52:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2445,7 +3247,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "14hg5wiozn"
+          "Value": "ioul02aqw4"
         },
         {
           "Name": "label",
@@ -2453,50 +3255,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs="
-        }
-      ]
-    },
-    {
-      "Route": "notifications.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\notifications.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2034"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Mar 2025 13:22:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs="
+          "Value": "sha256-kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0="
         }
       ]
     },
     {
       "Route": "pdfs/aptitude_interview.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\aptitude_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\aptitude_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2533,7 +3298,7 @@
     },
     {
       "Route": "pdfs/aptitude_interview.pj5yym0ivn.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\aptitude_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\aptitude_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2577,8 +3342,90 @@
       ]
     },
     {
+      "Route": "pdfs/C_Questions.eid8ztmmbl.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\C_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eid8ztmmbl"
+        },
+        {
+          "Name": "label",
+          "Value": "pdfs/C_Questions.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/C_Questions.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\C_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE="
+        }
+      ]
+    },
+    {
       "Route": "pdfs/coding_challenges.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\coding_challenges.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2615,7 +3462,7 @@
     },
     {
       "Route": "pdfs/coding_challenges.qsxsgep438.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\coding_challenges.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2659,8 +3506,172 @@
       ]
     },
     {
+      "Route": "pdfs/CPP_Questions.cwtiafg7ju.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CPP_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwtiafg7ju"
+        },
+        {
+          "Name": "label",
+          "Value": "pdfs/CPP_Questions.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/CPP_Questions.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CPP_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/CSharp_Questions.3pcxsvtozg.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CSharp_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3pcxsvtozg"
+        },
+        {
+          "Name": "label",
+          "Value": "pdfs/CSharp_Questions.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/CSharp_Questions.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CSharp_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc="
+        }
+      ]
+    },
+    {
       "Route": "pdfs/hr_interview.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\hr_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2697,7 +3708,7 @@
     },
     {
       "Route": "pdfs/hr_interview.rprtajyc2h.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\hr_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2741,8 +3752,90 @@
       ]
     },
     {
+      "Route": "pdfs/Java_Questions (3).82tcweeerl.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Java_Questions (3).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "82tcweeerl"
+        },
+        {
+          "Name": "label",
+          "Value": "pdfs/Java_Questions (3).pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/Java_Questions (3).pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Java_Questions (3).pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8="
+        }
+      ]
+    },
+    {
       "Route": "pdfs/mock_interview_guide.0p2hlgrfjm.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2787,7 +3880,7 @@
     },
     {
       "Route": "pdfs/mock_interview_guide.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2823,8 +3916,90 @@
       ]
     },
     {
+      "Route": "pdfs/Python_Questions.8ubqycdh72.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Python_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ubqycdh72"
+        },
+        {
+          "Name": "label",
+          "Value": "pdfs/Python_Questions.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ="
+        }
+      ]
+    },
+    {
+      "Route": "pdfs/Python_Questions.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Python_Questions.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 14:32:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ="
+        }
+      ]
+    },
+    {
       "Route": "pdfs/technical_interview.ez8ii0wtan.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\technical_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2869,7 +4044,7 @@
     },
     {
       "Route": "pdfs/technical_interview.pdf",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\technical_interview.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2906,7 +4081,7 @@
     },
     {
       "Route": "profile.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\profile.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\profile.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2915,7 +4090,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "757"
+          "Value": "3339"
         },
         {
           "Name": "Content-Type",
@@ -2923,11 +4098,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ=\""
+          "Value": "\"IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:58:33 GMT"
+          "Value": "Fri, 28 Mar 2025 04:11:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2937,13 +4112,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ="
+          "Value": "sha256-IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc="
         }
       ]
     },
     {
-      "Route": "profile.k70plqdnc1.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\profile.html",
+      "Route": "profile.shmd7js46o.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\profile.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2952,7 +4127,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "757"
+          "Value": "3339"
         },
         {
           "Name": "Content-Type",
@@ -2960,11 +4135,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ=\""
+          "Value": "\"IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 05:58:33 GMT"
+          "Value": "Fri, 28 Mar 2025 04:11:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2974,7 +4149,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k70plqdnc1"
+          "Value": "shmd7js46o"
         },
         {
           "Name": "label",
@@ -2982,13 +4157,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ="
+          "Value": "sha256-IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc="
         }
       ]
     },
     {
-      "Route": "questionBank.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\questionBank.html",
+      "Route": "questionBank.anxk6lc06y.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questionBank.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2997,7 +4172,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3632"
+          "Value": "3346"
         },
         {
           "Name": "Content-Type",
@@ -3005,48 +4180,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE=\""
+          "Value": "\"qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:27:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE="
-        }
-      ]
-    },
-    {
-      "Route": "questionBank.rkkebmw77i.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\questionBank.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3632"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:27:13 GMT"
+          "Value": "Thu, 27 Mar 2025 18:06:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3056,7 +4194,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rkkebmw77i"
+          "Value": "anxk6lc06y"
         },
         {
           "Name": "label",
@@ -3064,13 +4202,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE="
+          "Value": "sha256-qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA="
         }
       ]
     },
     {
-      "Route": "register.950cv265u8.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\register.html",
+      "Route": "questionBank.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questionBank.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3079,7 +4217,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3507"
+          "Value": "3346"
         },
         {
           "Name": "Content-Type",
@@ -3087,11 +4225,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU=\""
+          "Value": "\"qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 09:21:05 GMT"
+          "Value": "Thu, 27 Mar 2025 18:06:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA="
+        }
+      ]
+    },
+    {
+      "Route": "questions.2skt5cgbd2.json",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questions.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:53:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3101,7 +4276,208 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "950cv265u8"
+          "Value": "2skt5cgbd2"
+        },
+        {
+          "Name": "label",
+          "Value": "questions.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg="
+        }
+      ]
+    },
+    {
+      "Route": "questions.json",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questions.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Mar 2025 14:53:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg="
+        }
+      ]
+    },
+    {
+      "Route": "Quiz.0nszxe1rnr.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\Quiz.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 02:23:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nszxe1rnr"
+        },
+        {
+          "Name": "label",
+          "Value": "Quiz.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g="
+        }
+      ]
+    },
+    {
+      "Route": "Quiz.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\Quiz.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 02:23:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:36:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k="
+        }
+      ]
+    },
+    {
+      "Route": "register.l2388ert6l.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 01:36:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2388ert6l"
         },
         {
           "Name": "label",
@@ -3109,50 +4485,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU="
-        }
-      ]
-    },
-    {
-      "Route": "register.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\register.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3507"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 09:21:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU="
+          "Value": "sha256-jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k="
         }
       ]
     },
     {
       "Route": "scripts.js",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\scripts.js",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\scripts.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3161,7 +4500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15655"
+          "Value": "24020"
         },
         {
           "Name": "Content-Type",
@@ -3169,11 +4508,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo=\""
+          "Value": "\"utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:22:29 GMT"
+          "Value": "Sat, 29 Mar 2025 16:10:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3183,13 +4522,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo="
+          "Value": "sha256-utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro="
         }
       ]
     },
     {
-      "Route": "scripts.vftkqo3sl2.js",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\scripts.js",
+      "Route": "scripts.m1k5wrbfql.js",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\scripts.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3198,7 +4537,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15655"
+          "Value": "24020"
         },
         {
           "Name": "Content-Type",
@@ -3206,11 +4545,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo=\""
+          "Value": "\"utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:22:29 GMT"
+          "Value": "Sat, 29 Mar 2025 16:10:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3220,7 +4559,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vftkqo3sl2"
+          "Value": "m1k5wrbfql"
         },
         {
           "Name": "label",
@@ -3228,13 +4567,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo="
+          "Value": "sha256-utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro="
         }
       ]
     },
     {
       "Route": "sidebar.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\sidebar.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\sidebar.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3255,7 +4594,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:29:19 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3271,7 +4610,7 @@
     },
     {
       "Route": "sidebar.lghe27nsvd.html",
-      "AssetFile": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\sidebar.html",
+      "AssetFile": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\sidebar.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3292,7 +4631,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 08:29:19 GMT"
+          "Value": "Mon, 24 Mar 2025 21:32:30 GMT"
         },
         {
           "Name": "Cache-Control",

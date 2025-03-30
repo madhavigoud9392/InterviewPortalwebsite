@@ -26,7 +26,7 @@
 
     <!-- Login Form Container -->
     <main class="auth-container">
-        <h2>Login to Your Account</h2>
+        <h2> Student Login </h2>
         <form id="loginForm">
             <!-- Email Field -->
             <div class="input-group">
@@ -40,7 +40,7 @@
                 <label for="password"><i class="fa-solid fa-lock"></i> Password</label>
                 <div class="password-container">
                     <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                    <span class="show-password" onclick="togglePasswordVisibility()">
+                    <span class="show-password" onclick="togglePasswordVisibility('password')">
                         <i class="fa-solid fa-eye"></i>
                     </span>
                 </div>
@@ -52,9 +52,14 @@
                 <label for="remember-me">Remember me</label>
             </div>
 
+
             <!-- Login Button -->
             <button type="submit" class="btn-primary"><i class="fa-solid fa-sign-in-alt"></i> Login</button>
         </form>
+        <div class="forgot-password">
+            <a href="forgotPassword.html">Forgot Password?</a>
+        </div>
+
         <p>Don't have an account? <a href="register.html">Register here</a></p>
     </main>
 

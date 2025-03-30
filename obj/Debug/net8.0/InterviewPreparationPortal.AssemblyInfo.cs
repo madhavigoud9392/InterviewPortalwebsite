@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterviewPreparationPortal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c007628179c0b169d2846419dab47491308b9f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterviewPreparationPortal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterviewPreparationPortal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

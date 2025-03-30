@@ -6,48 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notifications - Interview Preparation Portal</title>
     <link rel="stylesheet" href="../css/notification.css">
-    <script src="../js/notification.js" defer></script>
 </head>
 
 <body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <button class="menu-toggle">☰</button>
-        <h2>Notifications</h2>
-        <ul>
-            <li><a href="index.html">🏠 Home</a></li>
-            <li><a href="dashboard.html">📊 Dashboard</a></li>
-            <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
-            <li><a href="questionBank.html">📚 Question Bank</a></li>
-            <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
-            <li><a href="adminManagement.html">⚙️ Admin</a></li>
-        </ul>
-    </div>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+            <h2>Notifications</h2>
+            <ul>
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="dashboard.html">📊 Dashboard</a></li>
+                <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
+                <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
+                <li><a href="quiz.html">📝 Quiz</a></li>
+            </ul>
+        </aside>
 
-    <!-- Main Content -->
-    <div class="main-content">
-        <h1>Notifications</h1>
-        <div class="notifications-container">
-            <div class="notification">
-                <p class="notification-title"><strong>New Technical Challenge</strong></p>
-                <p>We have added a new technical challenge to help you practice!</p>
-                <span class="timestamp">10 mins ago</span>
-                <button class="dismiss-btn">Dismiss</button>
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1>🔔 Notifications</h1>
+            <div class="notification-container" id="notification-list">
+                <p id="loading-message"></p>
             </div>
-            <div class="notification">
-                <p class="notification-title"><strong>Upcoming Mock Interview</strong></p>
-                <p>Your mock interview is scheduled for tomorrow at 2 PM. Prepare well!</p>
-                <span class="timestamp">1 hour ago</span>
-                <button class="dismiss-btn">Dismiss</button>
-            </div>
-        </div>
+        </main>
     </div>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            addRandomNotifications();
+        });
+
+        // Function to add random notifications for testing purposes
+        function addRandomNotifications() {
+            const notifications = [
+                { subject: "New Job Posting", message: "A new job position has been posted in your field. Apply now!", sentDate: new Date(), id: 1 },
+                { subject: "Mock Interview Scheduled", message: "Your mock interview has been scheduled for tomorrow at 10 AM.", sentDate: new Date(), id: 2 },
+                { subject: "New Coding Challenge", message: "A new coding challenge has been added. Check it out and start solving!", sentDate: new Date(), id: 3 },
+                { subject: "Important Update", message: "There is an important update regarding your application. Please check your dashboard.", sentDate: new Date(), id: 4 }
+            ];
+
+            const notificationList = document.getElementById("notification-list");
+            notifications.forEach(notification => {
+                const notifDiv = document.createElement("div");
+                notifDiv.classList.add("notification");
+                notifDiv.id = `notification-${notification.id}`; // Ensure unique ID
+                notifDiv.innerHTML = `
+            <h3>${notification.subject}</h3>
+            <p>${notification.message}</p>
+            <small>${new Date(notification.sentDate).toLocaleString()}</small>
+            <button onclick="removeNotification(${notification.id})">Remove</button>
+        `;
+                notificationList.appendChild(notifDiv);
+            });
+        }
+
+        // Function to remove a notification from the UI
+        function removeNotification(notificationId) {
+            const notificationElement = document.getElementById(`notification-${notificationId}`);
+            if (notificationElement) {
+                notificationElement.remove();
+            }
+        }
+
+        // Toggle sidebar visibility
+        function toggleSidebar() {
+            document.querySelector(".sidebar").classList.toggle("open");
+        }
+
+
+        // For testing, call this function to add random notifications
+        setTimeout(addRandomNotifications, 1000); // Adds random notifications after 1 second
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+       
+     
+        <nav>
+            <ul class="sidebar-links">
+                <li><a href="index.html">🏠 Home</a></li>
+                <li><a href="dashboard.html">📊 Dashboard</a></li>
+                <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
+                <li><a href="questionBank.html">📚 Question Bank</a></li>
+                <li><a href="notifications.html">🔔 Notifications</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="quiz-container">
+            <h1>Coding Quiz</h1>
+
+            <!-- User Name Input -->
+            <div class="name-input-container">
+                <label for="userName">Enter Your Name:</label>
+                <input type="text" id="userName" placeholder="Your Name">
+            </div>
+
+            <!-- Quiz Level Selection -->
+            <div class="quiz-level-container">
+                <label for="quizLevel">Select Difficulty Level:</label>
+                <select id="quizLevel">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <button id="startQuiz">Start Quiz</button>
+            </div>
+
+            <!-- Quiz Section -->
+            <div class="quiz-content hidden">
+                <div class="timer">⏳ Time Left: <span id="time">300</span>s</div>
+                <div id="question-container">
+                    <span id="question-number"></span>
+                    <span id="question"></span>
+                </div>
+                <div id="options" class="options"></div>
+                <div class="navigation-buttons">
+                    <button id="prev" class="nav-btn hidden">⬅ Previous</button>
+                    <button id="next" class="nav-btn hidden">Next ➡</button>
+                </div>
+                <button id="submit" class="nav-btn hidden">✔ Submit Quiz</button>
+                <button id="exitQuiz" class="nav-btn hidden">❌ Exit Quiz</button>
+            </div>
+
+            <!-- Results Section -->
+            <div class="result hidden">
+                <h2>🎉 Your Score: <span id="score">0</span></h2>
+                <button class="restart-btn">Restart Quiz</button>
+            </div>
+
+            <!-- Scoreboard -->
+            <div class="scoreboard">
+                <h2>📊 Scoreboard</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Score</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="scoreboard"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript File -->
+ 
+    <script>document.addEventListener("DOMContentLoaded", function () {
+            const startQuizBtn = document.getElementById("startQuiz");
+            const userNameInput = document.getElementById("userName");
+            const quizLevel = document.getElementById("quizLevel");
+            const timerElement = document.querySelector(".timer");
+            const questionElement = document.getElementById("question");
+            const questionNumberElement = document.getElementById("question-number");
+            const optionsElement = document.getElementById("options");
+            const submitBtn = document.getElementById("submit");
+            const resultContainer = document.querySelector(".result");
+            const scoreElement = document.getElementById("score");
+            const scoreboardTable = document.getElementById("scoreboard");
+            const nextBtn = document.getElementById("next");
+            const prevBtn = document.getElementById("prev");
+            const exitBtn = document.getElementById("exitQuiz");
+
+            let currentQuestionIndex = 0;
+            let score = 0;
+            let timer;
+            let timeLeft = 300;
+            let selectedLevel = "beginner";
+            let questions = [];
+            let userAnswers = [];
+            let userName = "";
+
+            async function loadQuestions() {
+                try {
+                    let response = await fetch("questions.json");
+                    let data = await response.json();
+                    return data;
+                } catch (error) {
+                    console.error("Error loading questions:", error);
+                    alert("Error loading questions. Please check the JSON file.");
+                    return null;
+                }
+            }
+
+            startQuizBtn.addEventListener("click", async function () {
+                userName = userNameInput.value.trim();
+                selectedLevel = quizLevel.value;
+
+                if (!userName) {
+                    alert("Please enter your name before starting the quiz.");
+                    return;
+                }
+
+                let data = await loadQuestions();
+                if (data) {
+                    questions = data[selectedLevel] || [];
+                    if (questions.length === 0) {
+                        alert("No questions available for this level.");
+                        return;
+                    }
+
+                    currentQuestionIndex = 0;
+                    score = 0;
+                    timeLeft = 300;
+                    userAnswers = new Array(questions.length).fill(null); // Store user responses
+                    startQuiz();
+                }
+            });
+
+            function startQuiz() {
+                startQuizBtn.style.display = "none";
+                userNameInput.style.display = "none";
+                quizLevel.style.display = "none";
+                timerElement.style.display = "block";
+                questionElement.style.display = "block";
+                optionsElement.style.display = "block";
+                resultContainer.style.display = "none";
+
+                prevBtn.style.display = "inline-block";
+                nextBtn.style.display = "inline-block";
+                submitBtn.style.display = "inline-block";
+                exitBtn.style.display = "inline-block";
+
+                loadQuestion();
+                startTimer();
+            }
+
+            function loadQuestion() {
+                if (currentQuestionIndex >= questions.length) {
+                    endQuiz();
+                    return;
+                }
+
+                let questionData = questions[currentQuestionIndex];
+                questionNumberElement.innerText = `Question ${currentQuestionIndex + 1}: `;
+                questionElement.innerText = questionData.question;
+                optionsElement.innerHTML = "";
+
+                questionData.options.forEach(option => {
+                    let button = document.createElement("button");
+                    button.innerText = option;
+                    button.classList.add("option-btn");
+                    button.onclick = () => selectAnswer(option);
+
+                    // Highlight selected answer if user has already chosen one
+                    if (userAnswers[currentQuestionIndex] === option) {
+                        button.classList.add("selected");
+                    }
+
+                    optionsElement.appendChild(button);
+                });
+
+                // Manage navigation button states
+                prevBtn.disabled = currentQuestionIndex === 0;
+                nextBtn.disabled = currentQuestionIndex === questions.length - 1;
+            }
+
+            function selectAnswer(answer) {
+                userAnswers[currentQuestionIndex] = answer; // Store answer
+                loadQuestion(); // Reload to highlight selected answer
+            }
+
+            nextBtn.addEventListener("click", function () {
+                if (currentQuestionIndex < questions.length - 1) {
+                    currentQuestionIndex++;
+                    loadQuestion();
+                }
+            });
+
+            prevBtn.addEventListener("click", function () {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    loadQuestion();
+                }
+            });
+
+            submitBtn.addEventListener("click", function () {
+                if (confirm("Are you sure you want to submit the quiz?")) {
+                    endQuiz();
+                }
+            });
+
+            exitBtn.addEventListener("click", function () {
+                if (confirm("Are you sure you want to exit the quiz? Your progress will be lost.")) {
+                    location.reload();
+                }
+            });
+
+            function startTimer() {
+                timerElement.querySelector("#time").innerText = timeLeft;
+
+                timer = setInterval(() => {
+                    timeLeft--;
+                    timerElement.querySelector("#time").innerText = timeLeft;
+
+                    if (timeLeft === 0) {
+                        clearInterval(timer);
+                        endQuiz();
+                    }
+                }, 1000);
+            }
+
+            function endQuiz() {
+                clearInterval(timer);
+                questionElement.style.display = "none";
+                optionsElement.style.display = "none";
+                submitBtn.style.display = "none";
+                nextBtn.style.display = "none";
+                prevBtn.style.display = "none";
+                timerElement.style.display = "none";
+
+                resultContainer.style.display = "block";
+                displayResults();
+                saveScore(userName, score);
+                displayScoreboard();
+            }
+
+            function displayResults() {
+                score = userAnswers.filter((answer, index) => answer === questions[index].correct).length;
+                scoreElement.innerText = `${score} / ${questions.length}`;
+
+                let reviewHTML = `<h2>📊 ${userName}, Your Score: ${score} / ${questions.length}</h2>`;
+                reviewHTML += `<h3>📈 Performance Review:</h3>`;
+
+                if (score / questions.length > 0.7) {
+                    reviewHTML += `<p>🎉 Excellent job, ${userName}! Keep it up!</p>`;
+                } else if (score / questions.length > 0.4) {
+                    reviewHTML += `<p>⚡ Good effort! Keep practicing.</p>`;
+                } else {
+                    reviewHTML += `<p>🔄 Needs improvement. Try again!</p>`;
+                }
+
+                reviewHTML += `<h3>✅ Correct Answers</h3>`;
+                userAnswers.forEach((answer, index) => {
+                    if (answer === questions[index].correct) {
+                        reviewHTML += `<p>✔️ <b>${questions[index].question}</b><br>👉 Your Answer: ${answer} ✅</p>`;
+                    }
+                });
+
+                reviewHTML += `<h3>❌ Incorrect Answers</h3>`;
+                userAnswers.forEach((answer, index) => {
+                    if (answer !== questions[index].correct) {
+                        reviewHTML += `<p>❌ <b>${questions[index].question}</b><br>👉 Your Answer: ${answer} ❌<br>✔️ Correct Answer: ${questions[index].correct} ✅</p>`;
+                    }
+                });
+
+                reviewHTML += `<button id="restartQuizBtn" class="restart-btn">🔄 Restart Quiz</button>`;
+                resultContainer.innerHTML = reviewHTML;
+
+                document.getElementById("restartQuizBtn").addEventListener("click", restartQuiz);
+            }
+
+            function saveScore(name, score) {
+                let scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+                scores.push({ name, score, date: new Date().toLocaleDateString() });
+                localStorage.setItem("quizScores", JSON.stringify(scores));
+            }
+
+            function displayScoreboard() {
+                let scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+                scoreboardTable.innerHTML = "";
+                scores.forEach(({ name, score, date }) => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `<td>${name}</td><td>${score}</td><td>${date}</td>`;
+                    scoreboardTable.appendChild(row);
+                });
+            }
+
+            function restartQuiz() {
+                location.reload();
+            }
+
+            displayScoreboard();
+        });
+
+
+
+
+        //document.addEventListener("DOMContentLoaded", function () {
+        //    const startQuizBtn = document.getElementById("startQuiz");
+        //    const userNameInput = document.getElementById("userName");
+        //    const quizLevel = document.getElementById("quizLevel");
+        //    const timerElement = document.querySelector(".timer");
+        //    const questionElement = document.getElementById("question");
+        //    const questionNumberElement = document.getElementById("question-number");
+        //    const optionsElement = document.getElementById("options");
+        //    const submitBtn = document.getElementById("submit");
+        //    const resultContainer = document.querySelector(".result");
+        //    const scoreElement = document.getElementById("score");
+        //    const scoreboardTable = document.getElementById("scoreboard");
+        //    const nextBtn = document.getElementById("next");
+        //    const prevBtn = document.getElementById("prev");
+        //    const exitBtn = document.getElementById("exitQuiz");
+
+        //    let currentQuestionIndex = 0;
+        //    let score = 0;
+        //    let timer;
+        //    let timeLeft = 300;
+        //    let selectedLevel = "beginner";
+        //    let questions = [];
+        //    let userAnswers = [];
+        //    let userName = "";
+
+        //    async function loadQuestions() {
+        //        try {
+        //            let response = await fetch("questions.json");
+        //            let data = await response.json();
+        //            return data;
+        //        } catch (error) {
+        //            console.error("Error loading questions:", error);
+        //            alert("Error loading questions. Please check the JSON file.");
+        //            return null;
+        //        }
+        //    }
+        //    startQuizBtn.addEventListener("click", function () {
+        //        // Show the submit button when quiz starts
+        //        prevBtn.style.display = "inline-block";
+        //        nextBtn.style.display = "inline-block";
+        //        submitBtn.style.display = "inline-block";
+        //        exitQuizBtn.style.display = "inline-block";
+        //    });
+
+        //    submitBtn.addEventListener("click", function () {
+        //        // Show restart button when quiz is submitted
+        //        restartButton.style.display = "inline-block";
+        //    });
+
+        //    startQuizBtn.addEventListener("click", async function () {
+        //        userName = userNameInput.value.trim();
+        //        selectedLevel = quizLevel.value;
+
+        //        if (!userName) {
+        //            alert("Please enter your name before starting the quiz.");
+        //            return;
+        //        }
+
+        //        let data = await loadQuestions();
+        //        if (data) {
+        //            questions = data[selectedLevel] || [];
+        //            if (questions.length === 0) {
+        //                alert("No questions available for this level.");
+        //                return;
+        //            }
+
+        //            currentQuestionIndex = 0;
+        //            score = 0;
+        //            timeLeft = 300;
+        //            userAnswers = [];
+        //            startQuiz();
+        //        }
+        //    });
+
+        //    function startQuiz() {
+        //        startQuizBtn.style.display = "none";
+        //        userNameInput.style.display = "none";
+        //        quizLevel.style.display = "none";
+        //        timerElement.style.display = "block";
+        //        questionElement.style.display = "block";
+        //        optionsElement.style.display = "block";
+        //        submitBtn.style.display = "none";
+        //        resultContainer.style.display = "none";
+
+        //        loadQuestion();
+        //        startTimer();
+        //    }
+
+        //    function loadQuestion() {
+        //        if (currentQuestionIndex >= questions.length) {
+        //            endQuiz();
+        //            return;
+        //        }
+
+        //        let questionData = questions[currentQuestionIndex];
+        //        questionNumberElement.innerText = `Question ${currentQuestionIndex + 1}: `;
+        //        questionElement.innerText = questionData.question;
+        //        optionsElement.innerHTML = "";
+
+        //        questionData.options.forEach(option => {
+        //            let button = document.createElement("button");
+        //            button.innerText = option;
+        //            button.classList.add("option-btn");
+        //            button.onclick = () => selectAnswer(option);
+        //            optionsElement.appendChild(button);
+        //        });
+        //    }
+
+        //    function selectAnswer(answer) {
+        //        let correctAnswer = questions[currentQuestionIndex].correct;
+        //        userAnswers.push({
+        //            question: questions[currentQuestionIndex].question,
+        //            userAnswer: answer,
+        //            correctAnswer: correctAnswer,
+        //            isCorrect: answer === correctAnswer
+        //        });
+
+        //        if (answer === correctAnswer) {
+        //            score++;
+        //        }
+        //        currentQuestionIndex++;
+        //        loadQuestion();
+        //    }
+
+        //    function startTimer() {
+        //        timerElement.querySelector("#time").innerText = timeLeft;
+
+        //        timer = setInterval(() => {
+        //            timeLeft--;
+        //            timerElement.querySelector("#time").innerText = timeLeft;
+
+        //            if (timeLeft === 0) {
+        //                clearInterval(timer);
+        //                endQuiz();
+        //            }
+        //        }, 1000);
+        //    }
+
+        //    function endQuiz() {
+        //        clearInterval(timer);
+        //        questionElement.style.display = "none";
+        //        optionsElement.style.display = "none";
+        //        submitBtn.style.display = "none";
+        //        timerElement.style.display = "none";
+
+        //        resultContainer.style.display = "block";
+        //        displayResults();
+        //        saveScore(userName, score);
+        //        displayScoreboard();
+        //    }
+
+        //    function displayResults() {
+        //        scoreElement.innerText = `${score} / ${questions.length}`;
+
+        //        let reviewHTML = `<h2>📊 ${userName}, Your Score: ${score} / ${questions.length}</h2>`;
+        //        reviewHTML += `<h3>📈 Performance Review:</h3>`;
+
+        //        if (score / questions.length > 0.7) {
+        //            reviewHTML += `<p>🎉 Excellent job, ${userName}! Keep it up!</p>`;
+        //        } else if (score / questions.length > 0.4) {
+        //            reviewHTML += `<p>⚡ Good effort! Keep practicing.</p>`;
+        //        } else {
+        //            reviewHTML += `<p>🔄 Needs improvement. Try again!</p>`;
+        //        }
+
+        //        reviewHTML += `<h3>✅ Correct Answers</h3>`;
+        //        userAnswers.forEach(answer => {
+        //            if (answer.isCorrect) {
+        //                reviewHTML += `<p>✔️ <b>${answer.question}</b><br>👉 Your Answer: ${answer.userAnswer} ✅</p>`;
+        //            }
+        //        });
+
+        //        reviewHTML += `<h3>❌ Incorrect Answers (Review & Learn)</h3>`;
+        //        userAnswers.forEach(answer => {
+        //            if (!answer.isCorrect) {
+        //                reviewHTML += `<p>❌ <b>${answer.question}</b><br>👉 Your Answer: ${answer.userAnswer} ❌<br>✔️ Correct Answer: ${answer.correctAnswer} ✅</p>`;
+        //            }
+        //        });
+
+        //        reviewHTML += `<button id="restartQuizBtn" class="restart-btn">🔄 Restart Quiz</button>`;
+        //        resultContainer.innerHTML = reviewHTML;
+        //        resultContainer.style.display = "block";
+
+        //        document.getElementById("restartQuizBtn").addEventListener("click", restartQuiz);
+        //    }
+
+        //    function saveScore(name, score) {
+        //        let scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+        //        scores.push({ name, score, date: new Date().toLocaleDateString() });
+        //        localStorage.setItem("quizScores", JSON.stringify(scores));
+        //    }
+
+        //    function displayScoreboard() {
+        //        let scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+        //        scoreboardTable.innerHTML = "";
+        //        scores.forEach(({ name, score, date }) => {
+        //            const row = document.createElement("tr");
+        //            row.innerHTML = `<td>${name}</td><td>${score}</td><td>${date}</td>`;
+        //            scoreboardTable.appendChild(row);
+        //        });
+        //    }
+
+        //    function restartQuiz() {
+        //        location.reload();
+        //    }
+
+        //    displayScoreboard();
+        //});
+
+       
+    </script>
+
+</body>
+</html>
+
+

@@ -4,130 +4,290 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f9f9f9;
+    background: url('../images/backgound.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
 }
+
+    /* Dark Overlay for Readability */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
 
 /* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #007bff;
     padding: 15px 30px;
-    color: white;
+    background: rgba(0, 0, 0, 0.8);
 }
 
-    .navbar .logo {
-        font-size: 24px;
-        font-weight: bold;
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+    .logo i {
+        margin-right: 10px;
     }
 
-    .navbar nav ul {
-        list-style: none;
-        display: flex;
-        gap: 20px;
+/* Navbar Links */
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+    .navbar nav ul li {
+        display: inline;
     }
 
-        .navbar nav ul li {
-            display: inline;
+        .navbar nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: 0.3s;
         }
 
-            .navbar nav ul li a {
-                text-decoration: none;
-                color: white;
-                font-size: 18px;
-                transition: 0.3s;
+            .navbar nav ul li a:hover,
+            .navbar nav ul li a.active {
+                text-decoration: underline;
             }
 
-                .navbar nav ul li a:hover {
-                    color: #ffdd57;
-                }
+/* Authentication Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
 
-.auth-buttons a {
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+    /* Dropdown Button */
+    .dropdown .btn {
+        width: 140px; /* Uniform size for Login & Register */
+        padding: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 8px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    min-width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+}
+
+    .dropdown-content a {
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .dropdown-content a:hover {
+            background: #ffdd57;
+            color: black;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* General Button Styling */
+.btn {
+    width: 140px; /* Same width */
+    height: 48px; /* Same height */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin-left: 10px;
+    background: white; /* Same color */
+    color: black; /* Same text color */
+    border: 2px solid #007bff; /* Same border */
 }
 
-.auth-buttons .btn {
-    background: transparent;
-    border: 2px solid white;
-}
-
-.auth-buttons .btn-primary {
-    background: white;
-    color: #007bff;
-}
+    /* Hover Effect for Both Buttons */
+    .btn:hover {
+        background: #0056b3;
+        border-color: #0056b3;
+    }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 20px;
-    background: #007bff;
-    color: white;
+    padding: 100px 20px;
 }
 
     .hero h1 {
-        font-size: 40px;
+        font-size: 45px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
     .hero p {
-        font-size: 18px;
+        font-size: 20px;
         margin: 15px 0;
+        opacity: 0.9;
     }
 
     .hero .btn {
-        padding: 10px 20px;
-        background: white;
-        color: #007bff;
+        display: inline-block;
+        padding: 12px 25px;
+        color: white;
+        border: 2px solid white;
         text-decoration: none;
         font-size: 18px;
-        border-radius: 5px;
+        border-radius: 8px;
         transition: 0.3s;
     }
 
         .hero .btn:hover {
-            background: #ffdd57;
+            background: white;
+            color: black;
         }
 
 /* Features Section */
 .features {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
     .features h2 {
-        font-size: 28px;
-        margin-bottom: 20px;
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
     }
 
 .feature-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .feature {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    width: 280px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
 }
 
+    .feature:hover {
+        transform: translateY(-5px);
+    }
+
     .feature i {
-        font-size: 30px;
-        color: #007bff;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .feature h3 {
+        font-size: 22px;
         margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    .feature p {
+        font-size: 16px;
+        opacity: 0.8;
     }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    background: #007bff;
-    color: white;
+    padding: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.8);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .navbar nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Get Started Button - Highlighted CTA */
+.btn-cta {
+    width: 160px; /* Slightly larger than other buttons */
+    height: 52px; /* Slightly taller */
+    font-size: 18px; /* Bigger text */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px; /* More rounded */
+    transition: 0.3s;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #ffdd57; /* Bright, eye-catching yellow */
+    color: black; /* Contrast for readability */
+    border: 2px solid #ffcc00; /* Matching border */
+    box-shadow: 0 4px 10px rgba(255, 221, 87, 0.6); /* Soft glow effect */
+}
+
+    /* Hover Effect */
+    .btn-cta:hover {
+        background: #ffc107;
+        border-color: #e6ac00;
+        box-shadow: 0 6px 15px rgba(255, 204, 0, 0.8); /* Stronger glow */
+    }

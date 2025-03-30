@@ -3,8 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
     color: #333;
+    display: flex;
 }
 
 /* Sidebar */
@@ -18,6 +19,11 @@ body {
     padding-top: 20px;
     transition: width 0.3s ease-in-out;
 }
+
+    .sidebar h2 {
+        color: white;
+        text-align: center;
+    }
 
     .sidebar ul {
         list-style: none;
@@ -36,112 +42,112 @@ body {
                 display: block;
             }
 
-                .sidebar ul li a:hover, .sidebar ul li a.active {
+                .sidebar ul li a:hover {
                     background: rgba(255, 255, 255, 0.3);
-                    border-radius: 5px;
                 }
-
-/* Sidebar Toggle */
-.menu-toggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px;
-    display: none;
-}
 
 /* Main Content */
 .main-content {
     margin-left: 240px;
     padding: 20px;
-    transition: margin-left 0.3s ease-in-out;
+    width: calc(100% - 240px);
 }
 
-.question-bank-card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: auto;
+h2 {
+    margin-top: 20px;
+    color: #007bff;
 }
 
-    .question-bank-card h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-.question-category {
+/* Programming Buttons */
+.programming-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-    .question-category button {
+    .programming-buttons button {
         background: #007bff;
         color: white;
-        padding: 10px 15px;
         border: none;
-        border-radius: 5px;
+        padding: 10px 15px;
         cursor: pointer;
-        transition: 0.3s;
+        border-radius: 5px;
+        transition: background 0.3s;
+        font-size: 16px;
     }
 
-        .question-category button:hover {
+        .programming-buttons button:hover {
             background: #0056b3;
         }
 
-#question-list {
-    margin-top: 20px;
-    padding: 10px;
-    background: #f8f8f8;
+/* General Question Buttons */
+.interview-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
     border-radius: 5px;
+    transition: background 0.3s;
     font-size: 16px;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    .btn-primary:hover {
+        background: #1e7e34;
+    }
+
+/* Questions Container */
+.questions-container {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
-/* Responsive */
+    .questions-container h2 {
+        margin-bottom: 10px;
+    }
+
+    .questions-container ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .questions-container ul li {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .sidebar {
         width: 60px;
         overflow: hidden;
     }
 
-        .sidebar ul li a {
-            font-size: 0;
-        }
-
     .main-content {
         margin-left: 80px;
+        padding: 15px;
     }
 
-    .menu-toggle {
-        display: block;
+    .programming-buttons,
+    .interview-options {
+        flex-direction: column;
     }
-}
-#question-list {
-    display: flex;
-    flex-direction: column; /* Stack questions vertically */
-    gap: 10px; /* Space between questions */
-    padding: 10px;
-}
 
-    #question-list p {
-        background-color: #f8f9fa; /* Light background */
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-        font-size: 16px;
-    }
+        .btn-primary,
+        .programming-buttons button {
+            width: 100%;
+        }
+}

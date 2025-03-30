@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Challenges - Interview Preparation Portal</title>
     <link rel="stylesheet" href="../css/coding-challenges.css">
-    <script src="../js/coding-challenges.js" defer></script>
 </head>
 
 <body>
+    <!-- Sidebar Navigation -->
     <!-- Sidebar Navigation -->
     <div class="sidebar">
         <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
@@ -20,9 +20,11 @@
             <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
             <li><a href="questionBank.html">📚 Question Bank</a></li>
             <li><a href="notifications.html">🔔 Notifications</a></li>
-            <li><a href="adminManagement.html">⚙️ Admin</a></li>
+            
+            <li><a href="quiz.html">📝 Quiz</a></li>
         </ul>
     </div>
+
 
     <!-- Main Content -->
     <div class="main-content">
@@ -31,22 +33,62 @@
             <p>Test your skills with real-world coding problems.</p>
         </header>
 
-        <!-- Coding Challenge Card -->
+        <!-- Coding Challenge Cards -->
         <div class="coding-challenge-container">
+            <!-- Challenge 1 -->
             <div class="coding-challenge-card">
                 <h3>Challenge 1: FizzBuzz</h3>
                 <p>
-                    Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz",
-                    for multiples of 5, print "Buzz", and for multiples of both, print "FizzBuzz".
+                    Write a function that prints numbers from 1 to 100.<br>
+                    - For multiples of 3, print "Fizz".<br>
+                    - For multiples of 5, print "Buzz".<br>
+                    - For multiples of both, print "FizzBuzz".
                 </p>
 
-                <textarea id="code-editor" placeholder="Write your solution in JavaScript..."></textarea>
-                <button class="btn-primary" onclick="runCode()">Run Code</button>
+                <textarea id="code-editor-1" placeholder="Write your solution in JavaScript..."></textarea>
+                <button class="btn-primary" onclick="runCode(1)">Run Code</button>
+                <button class="btn-secondary" onclick="showSolution(1)">Show Solution</button>
+                <button class="btn-hide" onclick="hideSolution(1)">Hide Solution</button>
 
                 <div class="output-container">
                     <h4>Output:</h4>
-                    <pre id="output"></pre>
+                    <pre id="output-1"></pre>
                 </div>
+                <pre class="solution" id="solution-1"></pre>
+            </div>
+
+            <!-- Challenge 2 -->
+            <div class="coding-challenge-card">
+                <h3>Challenge 2: Reverse a String</h3>
+                <p>Write a function to reverse a given string.</p>
+
+                <textarea id="code-editor-2" placeholder="Write your solution in JavaScript..."></textarea>
+                <button class="btn-primary" onclick="runCode(2)">Run Code</button>
+                <button class="btn-secondary" onclick="showSolution(2)">Show Solution</button>
+                <button class="btn-hide" onclick="hideSolution(2)">Hide Solution</button>
+
+                <div class="output-container">
+                    <h4>Output:</h4>
+                    <pre id="output-2"></pre>
+                </div>
+                <pre class="solution" id="solution-2"></pre>
+            </div>
+
+            <!-- Challenge 3 -->
+            <div class="coding-challenge-card">
+                <h3>Challenge 3: Find the Largest Number</h3>
+                <p>Write a function that returns the largest number in an array.</p>
+
+                <textarea id="code-editor-3" placeholder="Write your solution in JavaScript..."></textarea>
+                <button class="btn-primary" onclick="runCode(3)">Run Code</button>
+                <button class="btn-secondary" onclick="showSolution(3)">Show Solution</button>
+                <button class="btn-hide" onclick="hideSolution(3)">Hide Solution</button>
+
+                <div class="output-container">
+                    <h4>Output:</h4>
+                    <pre id="output-3"></pre>
+                </div>
+                <pre class="solution" id="solution-3"></pre>
             </div>
         </div>
     </div>
@@ -55,7 +97,7 @@
     <footer>
         <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
 </body>
 
 </html>

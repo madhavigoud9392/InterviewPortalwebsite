@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterviewPreparationPortal.Models
 {
@@ -8,12 +10,19 @@ namespace InterviewPreparationPortal.Models
         public int Id { get; set; }
 
         [Required]
-        public string Title { get; set; }
+        public int UserId { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string UserEmail { get; set; }
+
+        [Required]
+        [MaxLength(255)]
+        public string Subject { get; set; }
 
         [Required]
         public string Message { get; set; }
 
-        [Required]
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime SentDate { get; set; }
     }
 }

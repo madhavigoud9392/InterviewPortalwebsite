@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\adminLogin.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>adminLogin.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>czmgnybizf</Fingerprint>
+      <Integrity>qLg3qoRK/G7agm9WzPpYnTYtQ3z0CEbL28Hy8IwXz8Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\adminLogin.html'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\adminManagement.html'))">
       <SourceType>Package</SourceType>
       <SourceId>InterviewPreparationPortal</SourceId>
@@ -12,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8a1ozdl5wr</Fingerprint>
-      <Integrity>gPxjMpd/1lL/5GjThN1bvo9WyvSYBUgOKNvJFayYxiA=</Integrity>
+      <Fingerprint>jz37wy8ppo</Fingerprint>
+      <Integrity>EUjHSQOuJhLbXrmRiy4S/7REEobBSYKKXveiXZQx/lg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\adminManagement.html'))</OriginalItemSpec>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gviy08gg5v</Fingerprint>
-      <Integrity>DLRDzyjFApJ0W6bgo0YmxNjs0mlSwlTSjH1vwDQho08=</Integrity>
+      <Fingerprint>zk1sfoo9k1</Fingerprint>
+      <Integrity>/XnqPsnZ7IL/teTWBKVJTYKg3n3X0832LkjtUA4BEug=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\codingChallenges.html'))</OriginalItemSpec>
@@ -48,11 +66,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>io9u9pkl25</Fingerprint>
-      <Integrity>grnU+6UK6HZHWF5M2u67PdMZgz6FK70RPjfVdX+Le4c=</Integrity>
+      <Fingerprint>4cs5mna7vm</Fingerprint>
+      <Integrity>tBA+2o43i7A5Uie2MNlb7S0k/EonRpe62IChrwc5zsA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin-management.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\adminLogin.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>css/adminLogin.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eu3ppvqhkh</Fingerprint>
+      <Integrity>SqvBzBnzG1qgwK3pvPcNI0LivHEpFPjk2HcXbFwz6dw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\adminLogin.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\coding-challenges.css'))">
       <SourceType>Package</SourceType>
@@ -66,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1ccbmfatea</Fingerprint>
-      <Integrity>z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=</Integrity>
+      <Fingerprint>pyrebvyezg</Fingerprint>
+      <Integrity>EeyIP975e6AEiybyzumfxkV1VRTLfhC6fGIQVQ7w1wU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\coding-challenges.css'))</OriginalItemSpec>
@@ -84,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1ccbmfatea</Fingerprint>
-      <Integrity>z5ra6XyaNWzASmC70nhQqEBbtZj8g0OOCEyyOCM8Do0=</Integrity>
+      <Fingerprint>yw81x6dh33</Fingerprint>
+      <Integrity>nnPsZ4pYLPeqV/n6humUoNrZsp1PL6Q715fFnKXXutk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</OriginalItemSpec>
@@ -102,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e9dzh4pat8</Fingerprint>
-      <Integrity>HoGE4bNNKWz7zbH3VCc0bfkQ8Qc0J5E1vhnttLvZw/s=</Integrity>
+      <Fingerprint>17wrigg2j4</Fingerprint>
+      <Integrity>QxK0k7Q+TqToutVnoMWc+CnzZcuueOZijB03HPlN9YM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</OriginalItemSpec>
@@ -120,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>697b5rqys3</Fingerprint>
-      <Integrity>eoo7UQ5CzytZWy8luSOf9RxaPuGeoZdQ/QB/tgx0cB4=</Integrity>
+      <Fingerprint>59ce4hm4ky</Fingerprint>
+      <Integrity>if0laAFWXQ8slRhh4Up/AVwT4evTMcOTv4Ss9q3dO7E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\login.css'))</OriginalItemSpec>
@@ -138,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>za5udogyhd</Fingerprint>
-      <Integrity>W4MMao3HJipew1f5/b09rryB6eenOaBFWaqziZWM5Js=</Integrity>
+      <Fingerprint>izc72zfbbr</Fingerprint>
+      <Integrity>gmR9P7a0W+iMcrDuNRJie5F2jz7rUjC+dAYSsfGLodo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\mock-interviews.css'))</OriginalItemSpec>
@@ -156,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f8dr5xie6c</Fingerprint>
-      <Integrity>v2S/2wZ4R/VdrNjWtm82yBdqOav96s5qTUsckqZTsXs=</Integrity>
+      <Fingerprint>8btrqmu48g</Fingerprint>
+      <Integrity>3OASK6CaBDjOstks8YzSK4NDLBRr9i0MDSdtrQ5sfZ8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\notification.css'))</OriginalItemSpec>
@@ -174,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i3d1cpriab</Fingerprint>
-      <Integrity>ckcEYgD+bKW0YQnR2wXXnoVmE512yNELr+XHPIfIyo0=</Integrity>
+      <Fingerprint>i3g2fvma4m</Fingerprint>
+      <Integrity>AheuJKDqIkTOE77a0IprM+uGPfNBwxcGeCMLuJ4GjSw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\profile.css'))</OriginalItemSpec>
@@ -192,11 +228,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6n9uhawo40</Fingerprint>
-      <Integrity>rlrw7zfKb0rKTS3yt1ovCRsDWWLlcdZwGW+fe9/KmeY=</Integrity>
+      <Fingerprint>3aunc57488</Fingerprint>
+      <Integrity>9dYLxQ1TQYm/tc9s8l3A0rTzN1Jntj+gtwnaJ5arSVs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\questionbank.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\quiz.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>css/quiz.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jm14xij293</Fingerprint>
+      <Integrity>xSXwGhnQ0S62BuN2ekK+VJupIBLq61fpv73KykQAEG8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\quiz.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\register.css'))">
       <SourceType>Package</SourceType>
@@ -210,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1rpac3j34d</Fingerprint>
-      <Integrity>3Qi8eX9jQwlhIqzkSLsaTOhp/5SFTZFTfZwTARowL0E=</Integrity>
+      <Fingerprint>0q3s891om0</Fingerprint>
+      <Integrity>2N1b0PTOVwMav9rAXfIRFy89KiTqZ2MUDwRYO5Y0Xkc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\register.css'))</OriginalItemSpec>
@@ -246,8 +300,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kpu1ufjkzx</Fingerprint>
-      <Integrity>SATcvt2jwWiG5rzOeNFD9OPz6gapYyGu9TFvJxHLRFI=</Integrity>
+      <Fingerprint>729fh2fnew</Fingerprint>
+      <Integrity>YXvUX4GUq9zFwbFCPN0lMrvHOpKaz7bTO+KoXBeFNxc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\dashboard.html'))</OriginalItemSpec>
@@ -269,6 +323,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\forgotPassword.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>forgotPassword.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>95onec5p81</Fingerprint>
+      <Integrity>/ediN83RTtAooeI/x/5FGDpuCAkFs2MeLKX0P3gaKiI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\forgotPassword.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\backgound.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>images/backgound.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n8ko5d5gs7</Fingerprint>
+      <Integrity>d0WTZkIXFQoJwh2oBIxPEn/pcttzgtxroLtUS3O/c2I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\backgound.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dashboard.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>images/dashboard.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7mmlrsz43s</Fingerprint>
+      <Integrity>v4CokYQZbQA8WAV26S40X7I/krh2VlRGbo9HvNwPjTk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dashboard.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.jpg'))">
       <SourceType>Package</SourceType>
@@ -318,8 +426,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9fin7cms27</Fingerprint>
-      <Integrity>BTSMBO6j0zJtGdgd/icj0+4Txo+iKvoZuFlt7cDDwNs=</Integrity>
+      <Fingerprint>sfejyd6pmw</Fingerprint>
+      <Integrity>KNpLdCMesq+0GxQ1up5jpz1bS1h8tgVeX57EWDVCFLw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -336,8 +444,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xxef87zeca</Fingerprint>
-      <Integrity>ZS3te7ik/YNA7cN/5Ox+UbQ+I+rz8Ak6kx2n59Fn6ss=</Integrity>
+      <Fingerprint>7gyc5s69eg</Fingerprint>
+      <Integrity>mRGE86SbkKeXljU4UfMYDcWWwSQZNqfG3i+skfU/540=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\login.html'))</OriginalItemSpec>
@@ -372,8 +480,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6cd6elqowd</Fingerprint>
-      <Integrity>Bms8WamJ4L0VMWSQc3vfY9shMCEQMqMcbMrogwmICHI=</Integrity>
+      <Fingerprint>bz35mhq2ac</Fingerprint>
+      <Integrity>Z31qDOxwiR05gLsKodOFwfU70WdYAg5oMtB2ImERbh0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mockInterviews.html'))</OriginalItemSpec>
@@ -390,8 +498,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>14hg5wiozn</Fingerprint>
-      <Integrity>oX9k3fI2xVBhU3NuEaFMFlPAZOvpTeqi5tXHntEjjVs=</Integrity>
+      <Fingerprint>ioul02aqw4</Fingerprint>
+      <Integrity>kvYNdFQ/0kx+xvsmWZ70adDVUAyQzETY6NBqfdTDpK0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\notifications.html'))</OriginalItemSpec>
@@ -432,6 +540,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\coding_challenges.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\CPP_Questions.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>pdfs/CPP_Questions.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cwtiafg7ju</Fingerprint>
+      <Integrity>JPIi9ruAdlSB2mTA8SJayFsupj4jxFx6jL7oTsZ7hy8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\CPP_Questions.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\CSharp_Questions.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>pdfs/CSharp_Questions.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3pcxsvtozg</Fingerprint>
+      <Integrity>hwYtcSNEy8kTcSEe4q9O7WqY1/HEeubf07qVxhIGOWc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\CSharp_Questions.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\C_Questions.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>pdfs/C_Questions.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eid8ztmmbl</Fingerprint>
+      <Integrity>mpKwwua9rFSgr/dVnePCez+I0Hed2elz9Vhdh4BASdE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\C_Questions.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\hr_interview.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>InterviewPreparationPortal</SourceId>
@@ -450,6 +612,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\hr_interview.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\Java_Questions (3).pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>pdfs/Java_Questions (3).pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>82tcweeerl</Fingerprint>
+      <Integrity>4Gn0MZvAFU+RN4bw6+EEJy3/uZgv9O79Qq2+0SQHyM8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\Java_Questions (3).pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\mock_interview_guide.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>InterviewPreparationPortal</SourceId>
@@ -467,6 +647,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\mock_interview_guide.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\Python_Questions.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>pdfs/Python_Questions.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8ubqycdh72</Fingerprint>
+      <Integrity>kB+BbHf6MLXhWXXfVKDVkroMhtP+8JxfrGOkp0VMXhQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\Python_Questions.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pdfs\technical_interview.pdf'))">
       <SourceType>Package</SourceType>
@@ -498,8 +696,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>k70plqdnc1</Fingerprint>
-      <Integrity>sMWDMt4PuBqiWBdp9My9PFsXG99rj773yZqkq5wA2rQ=</Integrity>
+      <Fingerprint>shmd7js46o</Fingerprint>
+      <Integrity>IAb8KR6T3LZUvjXVdaTsQdaC5ZY6Ilsus75xUC26IKc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\profile.html'))</OriginalItemSpec>
@@ -516,11 +714,47 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rkkebmw77i</Fingerprint>
-      <Integrity>Vd3c81EIF2icb9ImN4ZQaq2049Ss23J+/E3S3NNWPXE=</Integrity>
+      <Fingerprint>anxk6lc06y</Fingerprint>
+      <Integrity>qh6VzdqN9f342Dl3tvQPmpoqFFBUWLHGt6/iaPZqFGA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\questionBank.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\questions.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>questions.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2skt5cgbd2</Fingerprint>
+      <Integrity>cqM3L6bsPqY6GEEwtvy4lI++U0DklmnJCMbRdD/yAqg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\questions.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Quiz.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>InterviewPreparationPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/InterviewPreparationPortal</BasePath>
+      <RelativePath>Quiz.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0nszxe1rnr</Fingerprint>
+      <Integrity>vAS/AHVAgixRBbfzety4TjyOu6PXqAHo3y9ZfH9WL3g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Quiz.html'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\register.html'))">
       <SourceType>Package</SourceType>
@@ -534,8 +768,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>950cv265u8</Fingerprint>
-      <Integrity>Qw1Ij6+HcJ2HB8yoZWHDtP+yirOtiZZvB1XvaJzmOdU=</Integrity>
+      <Fingerprint>l2388ert6l</Fingerprint>
+      <Integrity>jbFl7UJ3UKpAgkSJbW6rRANWPyQ7xkybKrpvFnfDK6k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\register.html'))</OriginalItemSpec>
@@ -552,8 +786,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vftkqo3sl2</Fingerprint>
-      <Integrity>C7wBGmUqlbFQBVqWd4AvpEeoGzMmfPaZR3EmI/icyLo=</Integrity>
+      <Fingerprint>m1k5wrbfql</Fingerprint>
+      <Integrity>utAgkUPs/44Ldo4sdQVoyhOhMxlblMJZ+O4XAtMH+ro=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts.js'))</OriginalItemSpec>

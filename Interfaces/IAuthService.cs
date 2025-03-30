@@ -1,13 +1,15 @@
-﻿using InterviewPreparationPortal.Models;
-using InterviewPreparationPortal.DTOs;
+﻿using InterviewPreparationPortal.DTOs;
+using InterviewPreparationPortal.Models;
 using System.Threading.Tasks;
 
-namespace InterviewPreparationPortal.Interfaces
+namespace InterviewPreparationPortal.Interfaces  // ✅ Corrected namespace
 {
     public interface IAuthService
     {
-        Task<User> Register(UserRegisterDTO userDto);
-        Task<string> Login(UserLoginDTO userDto);
-        string GenerateJwtToken(User user);  // ✅ Added this line
+        Task<(bool Success, string Message)> RegisterAsync(RegisterRequest registerRequest);
+        Task<(bool Success, string Token, User User)> LoginAsync(LoginRequest loginRequest);
+        Task<User> GetUserProfileAsync(int userId);
+        Task<string> GetSecurityQuestionAsync(string email);
+        Task<(bool Success, string Message)> ResetPasswordAsync(ResetPasswordRequest model);
     }
 }

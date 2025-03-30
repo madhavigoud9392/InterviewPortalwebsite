@@ -3,42 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile - Interview Preparation Portal</title>
-    <link rel="stylesheet" href="../css/profile.css">
-    <script src="../js/scripts.js" defer></script>
+    <title>Dashboard - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <div class="sidebar">
-        <h2>Profile</h2>
-        <ul>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="mockInterviews.html">Mock Interviews</a></li>
-            <li><a href="questionBank.html">Question Bank</a></li>
-            <li><a href="codingChallenges.html">Coding Challenges</a></li>
-            <li><a href="notifications.html">Notifications</a></li>
-            <li><a href="logout.html" class="logout">Logout</a></li>
-        </ul>
-    </div>
-
-    <!-- Main Content -->
-    <div class="main-content">
-        <header class="profile-header">
-            <h1>User Profile</h1>
-        </header>
-
-        <div class="profile-container">
-            <img src="../images/profile-placeholder.png" alt="Profile Picture" class="profile-pic">
-            <h2 id="username">John Doe</h2>
-            <p>Email: <span id="email">johndoe@example.com</span></p>
-            <p>Role: <span id="role">Student</span></p>
-            <button id="edit-profile-btn">Edit Profile</button>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Student Dashboard</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">🏠 Home</a></li>
+                    <li><a href="profile.html">👤 Profile</a></li>
+                   
+                    <li><a href="logout.html">🚪 Logout</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <!-- User Info Section -->
+        <!-- Dashboard Content -->
+        <section class="user-info">
+
+            <h2>Welcome, <span id="username">User</span>! 👋</h2>
+        </section>
+        <div class="dashboard-container">
+
+            <section class="quick-links">
+                <h2>🚀 Quick Access</h2>
+                <div class="card">
+                    <button onclick="navigateTo('mockInterviews.html')">🎤 Start Mock Interview</button>
+                </div>
+                <div class="card">
+                    <button onclick="navigateTo('codingChallenges.html')">💻 Solve Coding Challenges</button>
+                </div>
+                <div class="card">
+                    <button onclick="navigateTo('questionBank.html')">📚 View Question Bank</button>
+                </div>
+                <div class="card">
+                    <button onclick="navigateTo('quiz.html')">📝 Take a Quiz</button>
+                </div>
+            </section>
+
+        </div>
+    </main>
 
     <footer>
         <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
     </footer>
+
     <script src="scripts.js"></script>
+    <script>
+        // Set the username dynamically from session/local storage
+        document.addEventListener("DOMContentLoaded", function () {
+            const user = JSON.parse(localStorage.getItem("user")) || { username: "User" };
+            document.getElementById("username").textContent = user.username;
+        });
+
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
 </body>
 </html>

@@ -1,154 +1,136 @@
-﻿/* General Styles */
+﻿/* Apply background image */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background: url("../images/dashboard.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 60px; /* Prevents content from hiding under the footer */
 }
 
-/* Sidebar */
-.sidebar {
-    width: 220px;
-    height: 100vh;
-    background: #007bff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 20px;
-    transition: width 0.3s ease-in-out;
-}
-
-.sidebar-title {
+/* Navigation Bar */
+header {
+    background: rgba(0, 123, 255, 0.9);
+    padding: 1rem;
     color: white;
-    text-align: center;
 }
 
-.sidebar-links {
-    list-style: none;
-    padding: 0;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
 }
 
-    .sidebar-links li {
-        padding: 15px 20px;
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
     }
 
-        .sidebar-links li a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 500;
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+        .navbar a:hover {
+            color: #ffeb3b;
         }
 
-            .sidebar-links li a:hover {
-                background: rgba(255, 255, 255, 0.3);
-            }
-
-/* Sidebar Toggle */
-.menu-toggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px;
-    display: none;
+/* User Profile Section */
+.user-info {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: black;
 }
 
-/* Main Content */
-.main-content {
-    margin-left: 240px;
-    padding: 20px;
-    transition: margin-left 0.3s ease-in-out;
-}
-
-.main-header h1 {
-    font-size: 24px;
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
     margin-bottom: 10px;
 }
 
-/* Coding Challenge */
-.coding-challenge-container {
+/* Main Dashboard Container */
+.dashboard-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    gap: 2rem;
+  
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.coding-challenge-card {
-    background: white;
-    padding: 20px;
+/* Quick Links */
+.quick-links h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.card {
+    margin: 1rem;
+    text-align: center;
+}
+
+    .card button {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border: none;
+        background: #007bff;
+        color: white;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+    }
+
+        .card button:hover {
+            background-color: #0056b3;
+        }
+
+/* Stats Section */
+.stats-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
 }
 
-    .coding-challenge-card h3 {
-        margin-bottom: 10px;
+    .stat-card h3 {
+        font-size: 1.2rem;
+        color: #333;
     }
 
-    .coding-challenge-card p {
-        font-size: 14px;
-        margin-bottom: 15px;
+    .stat-card p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #3b5998;
     }
 
-#code-editor {
-    width: 100%;
-    height: 150px;
-    font-family: monospace;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #f8f8f8;
-}
-
-.btn-primary {
-    background: #007bff;
+/* Footer */
+footer {
+    background: rgba(0, 123, 255, 0.9);
     color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 10px;
-}
-
-    .btn-primary:hover {
-        background: #0056b3;
-    }
-
-/* Output */
-.output-container {
-    margin-top: 15px;
-    padding: 10px;
-    background: #eee;
-    border-radius: 5px;
-}
-
-#output {
-    font-family: monospace;
-    color: #333;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .sidebar {
-        width: 60px;
-        overflow: hidden;
-    }
-
-    .sidebar-links li a {
-        font-size: 0;
-    }
-
-    .main-content {
-        margin-left: 80px;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

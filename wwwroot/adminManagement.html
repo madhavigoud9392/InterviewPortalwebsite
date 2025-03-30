@@ -6,22 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Management - Interview Preparation Portal</title>
     <link rel="stylesheet" href="../css/admin-management.css">
-    <script src="../js/admin-management.js" defer></script>
 </head>
 
 <body>
     <!-- Sidebar Navigation -->
-    <a href="../js/login.html">../js/login.html</a>
     <div class="sidebar">
         <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
-        <h2 class="sidebar-title">Admin Panel</h2>
+        <h2 class="sidebar-title">Admin Management</h2>
         <ul class="sidebar-links">
             <li><a href="index.html">🏠 Home</a></li>
             <li><a href="dashboard.html">📊 Dashboard</a></li>
             <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
             <li><a href="questionBank.html">📚 Question Bank</a></li>
-            <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
             <li><a href="notifications.html">🔔 Notifications</a></li>
+            <li><a href="quiz.html">📝 Quiz</a></li>
         </ul>
     </div>
 
@@ -41,6 +39,14 @@
                     <button class="btn-primary" id="edit-questions-btn">✏️ Edit Questions</button>
                 </div>
             </div>
+        </div>
+
+        <!-- Display Added Questions -->
+        <div class="question-list">
+            <h3>Added Questions</h3>
+            <ul id="question-list">
+                <!-- Added questions will be displayed here -->
+            </ul>
         </div>
     </div>
 
@@ -67,7 +73,117 @@
     <footer>
         <p>&copy; 2025 Interview Preparation Portal. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
+
+    <script >
+        document.addEventListener("DOMContentLoaded", function () {
+            const addQuestionBtn = document.getElementById("add-question-btn");
+            const editQuestionsBtn = document.getElementById("edit-questions-btn");
+            const questionModal = document.getElementById("question-modal");
+            const closeModalBtn = document.querySelector(".close-modal");
+            const saveQuestionBtn = document.getElementById("save-question-btn");
+            const questionText = document.getElementById("question-text");
+            const questionCategory = document.getElementById("question-category");
+            const modalTitle = document.getElementById("modal-title");
+            const questionList = document.getElementById("question-list");
+
+            let questions = [];  // Simulated question storage, replace with a backend call
+            let currentEditingQuestion = null;  // To track the question being edited
+
+            // Open Modal to Add a Question
+            addQuestionBtn.addEventListener("click", function () {
+                modalTitle.textContent = "Add New Question";
+                questionText.value = "";
+                questionCategory.value = "technical";
+                currentEditingQuestion = null;  // Reset editing state
+                questionModal.style.display = "block";
+            });
+
+            // Open Modal to Edit a Question
+            editQuestionsBtn.addEventListener("click", function () {
+                if (questions.length > 0) {
+                    modalTitle.textContent = "Edit Question";
+                    // Here, we should allow the admin to select a question to edit
+                    // For simplicity, let's assume we are editing the first question for now
+                    const question = questions[0];
+                    currentEditingQuestion = question;  // Track the question being edited
+                    questionText.value = question.text;
+                    questionCategory.value = question.category;
+                    questionModal.style.display = "block";
+                } else {
+                    alert("No questions available to edit.");
+                }
+            });
+
+            // Save Question (Add or Edit)
+            saveQuestionBtn.addEventListener("click", function () {
+                const text = questionText.value.trim();
+                const category = questionCategory.value;
+
+                if (text === "") {
+                    alert("Please enter a question.");
+                    return;
+                }
+
+                if (currentEditingQuestion) {
+                    // Edit the question
+                    currentEditingQuestion.text = text;
+                    currentEditingQuestion.category = category;
+                    alert("Question updated successfully!");
+                } else {
+                    // Add a new question
+                    const newQuestion = { id: Date.now(), text, category };
+                    questions.push(newQuestion);
+                    alert("Question added successfully!");
+                }
+
+                displayQuestions(); // Refresh the question list
+                closeModal(); // Close the modal
+            });
+
+            // Close Modal
+            closeModalBtn.addEventListener("click", function () {
+                closeModal();
+            });
+
+            function closeModal() {
+                questionModal.style.display = "none";
+                questionText.value = "";
+                questionCategory.value = "technical";
+                currentEditingQuestion = null; // Reset editing state
+            }
+
+            // Display Added Questions
+            function displayQuestions() {
+                // Clear the list first
+                questionList.innerHTML = "";
+
+                // Loop through all the questions and display them
+                questions.forEach((question, index) => {
+                    const li = document.createElement("li");
+                    li.textContent = `Question: ${question.text} | Category: ${question.category}`;
+                    // Add edit button next to each question
+                    const editBtn = document.createElement("button");
+                    editBtn.textContent = "Edit";
+                    editBtn.onclick = () => {
+                        // Set the modal state to edit this question
+                        currentEditingQuestion = question;
+                        questionText.value = question.text;
+                        questionCategory.value = question.category;
+                        modalTitle.textContent = "Edit Question";
+                        questionModal.style.display = "block";
+                    };
+                    li.appendChild(editBtn);
+                    questionList.appendChild(li);
+                });
+            }
+
+            // Toggle Sidebar
+            window.toggleSidebar = function () {
+                const sidebar = document.querySelector(".sidebar");
+                sidebar.classList.toggle("active");
+            };
+        });
+    </script>
 </body>
 
 </html>

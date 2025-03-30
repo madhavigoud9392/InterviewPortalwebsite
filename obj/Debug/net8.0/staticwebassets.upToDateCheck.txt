@@ -1,5 +1,7 @@
+wwwroot\adminLogin.html
 wwwroot\adminManagement.html
 wwwroot\codingChallenges.html
+wwwroot\css\adminLogin.css
 wwwroot\css\admin-management.css
 wwwroot\css\coding-challenges.css
 wwwroot\css\dashboard.css
@@ -9,10 +11,14 @@ wwwroot\css\mock-interviews.css
 wwwroot\css\notification.css
 wwwroot\css\profile.css
 wwwroot\css\questionbank.css
+wwwroot\css\quiz.css
 wwwroot\css\register.css
 wwwroot\css\sidebar.css
 wwwroot\dashboard.html
 wwwroot\favicon.ico
+wwwroot\forgotPassword.html
+wwwroot\images\backgound.jpg
+wwwroot\images\dashboard.jpg
 wwwroot\images\logo.jpg
 wwwroot\images\profile-placeholder.png
 wwwroot\index.html
@@ -21,12 +27,19 @@ wwwroot\logout.html
 wwwroot\mockInterviews.html
 wwwroot\notifications.html
 wwwroot\pdfs\aptitude_interview.pdf
+wwwroot\pdfs\C_Questions.pdf
 wwwroot\pdfs\coding_challenges.pdf
+wwwroot\pdfs\CPP_Questions.pdf
+wwwroot\pdfs\CSharp_Questions.pdf
 wwwroot\pdfs\hr_interview.pdf
+wwwroot\pdfs\Java_Questions (3).pdf
 wwwroot\pdfs\mock_interview_guide.pdf
+wwwroot\pdfs\Python_Questions.pdf
 wwwroot\pdfs\technical_interview.pdf
 wwwroot\profile.html
 wwwroot\questionBank.html
+wwwroot\questions.json
+wwwroot\Quiz.html
 wwwroot\register.html
 wwwroot\scripts.js
 wwwroot\sidebar.html

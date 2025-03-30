@@ -1,131 +1,183 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\adminManagement.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\Quiz.html",
+      "PackagePath": "staticwebassets\\Quiz.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminLogin.html",
+      "PackagePath": "staticwebassets\\adminLogin.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\adminManagement.html",
       "PackagePath": "staticwebassets\\adminManagement.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\codingChallenges.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\codingChallenges.html",
       "PackagePath": "staticwebassets\\codingChallenges.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\admin-management.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\admin-management.css",
       "PackagePath": "staticwebassets\\css\\admin-management.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\coding-challenges.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\adminLogin.css",
+      "PackagePath": "staticwebassets\\css\\adminLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\coding-challenges.css",
       "PackagePath": "staticwebassets\\css\\coding-challenges.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\dashboard.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\mock-interviews.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\mock-interviews.css",
       "PackagePath": "staticwebassets\\css\\mock-interviews.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\notification.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\notification.css",
       "PackagePath": "staticwebassets\\css\\notification.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\profile.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\profile.css",
       "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\questionbank.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\questionbank.css",
       "PackagePath": "staticwebassets\\css\\questionbank.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\register.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\quiz.css",
+      "PackagePath": "staticwebassets\\css\\quiz.css"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\register.css",
       "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\css\\sidebar.css",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\css\\sidebar.css",
       "PackagePath": "staticwebassets\\css\\sidebar.css"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\dashboard.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\dashboard.html",
       "PackagePath": "staticwebassets\\dashboard.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\logo.jpg",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\forgotPassword.html",
+      "PackagePath": "staticwebassets\\forgotPassword.html"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\backgound.jpg",
+      "PackagePath": "staticwebassets\\images\\backgound.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\dashboard.jpg",
+      "PackagePath": "staticwebassets\\images\\dashboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\logo.jpg",
       "PackagePath": "staticwebassets\\images\\logo.jpg"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\images\\profile-placeholder.png",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\images\\profile-placeholder.png",
       "PackagePath": "staticwebassets\\images\\profile-placeholder.png"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\index.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\login.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\logout.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\logout.html",
       "PackagePath": "staticwebassets\\logout.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\mockInterviews.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\mockInterviews.html",
       "PackagePath": "staticwebassets\\mockInterviews.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\notifications.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\notifications.html",
       "PackagePath": "staticwebassets\\notifications.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\aptitude_interview.pdf",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CPP_Questions.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\CPP_Questions.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\CSharp_Questions.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\CSharp_Questions.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\C_Questions.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\C_Questions.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Java_Questions (3).pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Java_Questions (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\Python_Questions.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Python_Questions.pdf"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\aptitude_interview.pdf",
       "PackagePath": "staticwebassets\\pdfs\\aptitude_interview.pdf"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\coding_challenges.pdf",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\coding_challenges.pdf",
       "PackagePath": "staticwebassets\\pdfs\\coding_challenges.pdf"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\hr_interview.pdf",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\hr_interview.pdf",
       "PackagePath": "staticwebassets\\pdfs\\hr_interview.pdf"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\mock_interview_guide.pdf",
       "PackagePath": "staticwebassets\\pdfs\\mock_interview_guide.pdf"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\pdfs\\technical_interview.pdf",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\pdfs\\technical_interview.pdf",
       "PackagePath": "staticwebassets\\pdfs\\technical_interview.pdf"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\profile.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\profile.html",
       "PackagePath": "staticwebassets\\profile.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\questionBank.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questionBank.html",
       "PackagePath": "staticwebassets\\questionBank.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\register.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\questions.json",
+      "PackagePath": "staticwebassets\\questions.json"
+    },
+    {
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\register.html",
       "PackagePath": "staticwebassets\\register.html"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\scripts.js",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\scripts.js",
       "PackagePath": "staticwebassets\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\madhu goud\\source\\repos\\InterviewPreparationPortal\\InterviewPreparationPortal\\wwwroot\\sidebar.html",
+      "Id": "C:\\Users\\madhu goud\\OneDrive\\Desktop\\interviewportal\\wwwroot\\sidebar.html",
       "PackagePath": "staticwebassets\\sidebar.html"
     },
     {

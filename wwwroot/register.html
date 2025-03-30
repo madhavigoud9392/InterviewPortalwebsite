@@ -35,13 +35,36 @@
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
             </div>
 
+            <!-- Email Field -->
             <div class="input-group">
                 <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 <span id="email-error" class="error-message"></span>
             </div>
 
-            <!-- Password Field -->
+            <!-- Qualification Field -->
+            <div class="input-group">
+                <label for="qualification"><i class="fa-solid fa-graduation-cap"></i> Qualification</label>
+                <input type="text" id="qualification" name="qualification" placeholder="Your highest qualification" required>
+            </div>
+
+            <!-- Experience Level Dropdown -->
+            <div class="input-group">
+                <label for="experienceLevel"><i class="fa-solid fa-briefcase"></i> Experience Level</label>
+                <select id="experienceLevel" name="experienceLevel" required>
+                    <option value="">Select Experience Level</option>
+                    <option value="Fresher">Fresher</option>
+                    <option value="1-3">1-3 Years</option>
+                    <option value="3-5">3-5 Years</option>
+                    <option value="5+">5+ Years</option>
+                </select>
+            </div>
+
+            <!-- Skills Field -->
+            <div class="input-group">
+                <label for="skills"><i class="fa-solid fa-code"></i> Skills</label>
+                <input type="text" id="skills" name="skills" placeholder="e.g. Java, Python, SQL" required>
+            </div>
             <div class="input-group">
                 <label for="password"><i class="fa-solid fa-lock"></i> Password</label>
                 <div class="password-container">
@@ -50,7 +73,6 @@
                         <i class="fa-solid fa-eye"></i>
                     </span>
                 </div>
-                <div id="password-strength"></div>
             </div>
 
             <!-- Confirm Password Field -->
@@ -62,8 +84,42 @@
                         <i class="fa-solid fa-eye"></i>
                     </span>
                 </div>
-                <span id="confirm-password-error" class="error-message"></span>
             </div>
+
+
+            
+            <!-- Security Question Field -->
+            <div class="input-group">
+                <label for="security-question">
+                    <i class="fa-solid fa-question-circle"></i> Security Question
+                </label>
+                <select id="security-question" name="security-question" required onchange="toggleCustomQuestion()">
+                    <option value="" disabled selected>Select a security question</option>
+                    <option value="What is your pet's name?">What is your pet's name?</option>
+                    <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+                    <option value="What was your first school?">What was your first school?</option>
+                    <option value="What is your favorite book?">What is your favorite book?</option>
+                    <option value="custom">Custom Question</option>
+                </select>
+            </div>
+
+            <!-- Custom Security Question Input (Hidden by Default) -->
+            <div class="input-group" id="custom-question-group" style="display: none;">
+                <label for="custom-security-question">
+                    <i class="fa-solid fa-edit"></i> Custom Security Question
+                </label>
+                <input type="text" id="custom-security-question" name="custom-security-question" placeholder="Enter your custom question">
+            </div>
+
+            <!-- Security Answer Field -->
+            <div class="input-group">
+                <label for="security-answer">
+                    <i class="fa-solid fa-key"></i> Security Answer
+                </label>
+                <input type="text" id="security-answer" name="security-answer" placeholder="Enter your answer" required>
+            </div>
+
+
 
             <!-- Submit Button -->
             <button id="register-button" type="submit" class="btn-primary">
@@ -79,6 +135,22 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script>
+        function toggleCustomQuestion() {
+            var questionSelect = document.getElementById("security-question");
+            var customQuestionGroup = document.getElementById("custom-question-group");
+            var customQuestionInput = document.getElementById("custom-security-question");
+
+            if (questionSelect.value === "custom") {
+                customQuestionGroup.style.display = "block";
+                customQuestionInput.required = true;
+            } else {
+                customQuestionGroup.style.display = "none";
+                customQuestionInput.required = false;
+                customQuestionInput.value = ""; // Clear the input if not used
+            }
+        }
+    </script>
 </body>
 
 </html>

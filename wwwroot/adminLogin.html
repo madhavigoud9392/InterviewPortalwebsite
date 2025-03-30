@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Interview Preparation Portal</title>
+    <link rel="stylesheet" href="../css/adminLogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Admin Login Container -->
+    <div class="admin-login-container">
+        <div class="login-box">
+            <div class="logo">
+               
+                <h2>Admin Login</h2>
+            </div>
+
+            <form id="adminLoginForm">
+                <!-- Email Field -->
+                <div class="input-group">
+                    <label for="admin-email"><i class="fa-solid fa-envelope"></i> Email</label>
+                    <input type="email" id="admin-email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Password Field -->
+                <div class="input-group">
+                    <label for="admin-password"><i class="fa-solid fa-lock"></i> Password</label>
+                    <div class="password-container">
+                        <input type="password" id="admin-password" name="password" placeholder="Enter your password" required>
+                        <span class="show-password" onclick="togglePasswordVisibility('admin-password')">
+                            <i class="fa-solid fa-eye"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Remember Me & Forgot Password -->
+                <div class="options">
+                    <div>
+                        <input type="checkbox" id="remember-me" name="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <a href="forgotPassword.html" class="forgot-password">Forgot Password?</a>
+                </div>
+
+                <!-- Login Button -->
+                <button type="submit" class="btn-login"><i class="fa-solid fa-sign-in-alt"></i> Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript for Handling Admin Login with Dummy Credentials -->
+    <script>
+        document.getElementById("adminLoginForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const email = document.getElementById("admin-email").value;
+            const password = document.getElementById("admin-password").value;
+
+            // Dummy admin credentials (hardcoded)
+            const validEmail = "admin@gmail.com";
+            const validPassword = "admin123";  // Dummy password
+
+            // Validate email and password
+            if (email === validEmail && password === validPassword) {
+                alert("Login successful!");
+                window.location.href = "adminManagement.html";  // Redirect to Admin Management Page
+            } else {
+                alert("Invalid email or password.");
+            }
+        });
+
+        // Function to toggle password visibility
+        function togglePasswordVisibility(id) {
+            var passwordField = document.getElementById(id);
+            var icon = passwordField.nextElementSibling.querySelector("i");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                icon.classList.replace("fa-eye", "fa-eye-slash");
+            } else {
+                passwordField.type = "password";
+                icon.classList.replace("fa-eye-slash", "fa-eye");
+            }
+        }
+    </script>
+
+</body>
+</html>

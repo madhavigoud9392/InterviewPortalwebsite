@@ -1,15 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock Interviews - Interview Preparation Portal</title>
+    <title>Mock Interviews - Interactive</title>
     <link rel="stylesheet" href="../css/mock-interviews.css">
-    <script src="../js/mock-interviews.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
 </head>
-
 <body>
+
     <!-- Sidebar Navigation -->
     <div class="sidebar">
         <button class="menu-toggle" onclick="toggleSidebar()">☰</button>
@@ -17,40 +17,288 @@
         <ul>
             <li><a href="index.html">🏠 Home</a></li>
             <li><a href="dashboard.html">📊 Dashboard</a></li>
-            <li><a href="questionBank.html">📚 Question Bank</a></li>
+            <li><a href="mockInterviews.html">🎤 Mock Interviews</a></li>
             <li><a href="codingChallenges.html">💻 Coding Challenges</a></li>
             <li><a href="notifications.html">🔔 Notifications</a></li>
-            <li><a href="adminManagement.html">⚙️ Admin</a></li>
         </ul>
     </div>
 
     <!-- Main Content -->
     <div class="main-content">
-        <h1>Mock Interviews</h1>
-        <p>Select an interview type to begin your practice session.</p>
+        <h1>📢 Mock Interviews</h1>
+        <p>Select an interview type to practice.</p>
 
         <!-- Interview Options -->
         <div class="interview-options">
-            <button class="btn-primary" onclick="startMockInterview('technical')">💡 Technical Interview</button>
-            <button class="btn-primary" onclick="startMockInterview('hr')">🗣️ HR Interview</button>
-            <button class="btn-primary" onclick="startMockInterview('aptitude')">📐 Aptitude Interview</button>
+            <button class="btn-primary" id="start-ai-btn">🤖 AI Interview</button>
+            <button class="btn-primary" id="industry-dropdown-btn">🏢 Industry-Specific</button>
+            <button class="btn-primary" id="peer-interview-btn">🎥 Peer-to-Peer</button>
         </div>
 
-        <!-- Interview Questions -->
-        <div class="interview-container" id="interview-container">
-            <h2>Interview Questions</h2>
-            <div id="questions-list"></div>
+        <!-- AI Mock Interview Section -->
+        <div id="ai-interview" class="interview-section hidden">
+            <h2>🤖 AI-Powered Mock Interview</h2>
+            <h3 id="ai-question">Click "Start AI Interview" to begin.</h3>
+            <textarea id="ai-response" placeholder="Type your answer"></textarea>
+            <button id="start-voice-btn">🎤 Voice Input</button>
+            <button id="submit-ai-btn">✅ Submit</button>
+            <p id="ai-feedback"></p>
+        </div>
 
-            <!-- Feedback Section -->
-            <div class="feedback-container">
-                <h3>Your Feedback</h3>
-                <textarea id="feedback" rows="5" placeholder="Provide your feedback here..."></textarea>
-                <button class="btn-primary" onclick="submitFeedback()">Submit Feedback</button>
-            </div>
+        <!-- Industry Selection (Initially Hidden) -->
+        <div id="industry-selection" class="hidden">
+            <label for="industry-select">Select Industry:</label>
+            <select id="industry-select">
+                <option value="" disabled selected>Choose an industry</option>
+                <option value="Software Developer">Software Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
+                <option value="Cloud Engineer">Cloud Engineer</option>
+                <option value="UX/UI Designer">UX/UI Designer</option>
+                <option value="Business Analyst">Business Analyst</option>
+            </select>
+            <button id="start-industry-btn">Start Interview</button>
+        </div>
+
+        <!-- Industry-Specific Interview (Initially Hidden) -->
+        <div id="industry-interview" class="hidden">
+            <h2>🏢 Industry-Specific Interview</h2>
+            <p id="industry-question">Select an industry to begin the interview.</p>
+            <textarea id="industry-response" placeholder="Type your answer here..."></textarea>
+            <button id="submit-industry-btn">✅ Submit</button>
+        </div>
+
+        <div id="peer-interview" class="interview-section hidden">
+            <h2>🎥 Live Peer Interview</h2>
+            <video id="peer-video" autoplay></video>
+            <button id="connect-peer-btn" onclick="connectPeer()">🔗 Connect with Peer</button>
         </div>
     </div>
-    <script src="scripts.js" defer></script>
 
+    <script>
+        // ✅ AI Mock Interview Module
+        const AIMockInterview = (() => {
+            const aiQuestions = [
+                "Tell me about yourself.",
+                "What are your strengths and weaknesses?",
+                "Describe a challenging project you worked on.",
+                "Where do you see yourself in 5 years?",
+                "Why should we hire you?",
+                "Explain a time when you solved a difficult problem.",
+                "How do you handle feedback and criticism?"
+            ];
+
+            function startAIMockInterview() {
+                const aiInterviewSection = document.getElementById("ai-interview");
+                const aiQuestionElement = document.getElementById("ai-question");
+
+                if (aiInterviewSection && aiQuestionElement) {
+                    aiInterviewSection.classList.remove("hidden");
+                    aiQuestionElement.textContent = getRandomQuestion();
+                } else {
+                    console.error("❌ AI Interview elements not found.");
+                }
+            }
+
+            function getRandomQuestion() {
+                return aiQuestions[Math.floor(Math.random() * aiQuestions.length)];
+            }
+
+            function submitAIResponse() {
+                const aiResponseElement = document.getElementById("ai-response");
+                const aiFeedbackElement = document.getElementById("ai-feedback");
+
+                if (!aiResponseElement || !aiFeedbackElement) {
+                    console.error("❌ Response elements not found.");
+                    return;
+                }
+
+                const response = aiResponseElement.value.trim();
+                if (response === "") {
+                    showToast("Please provide an answer!", "error");
+                    return;
+                }
+
+                aiFeedbackElement.textContent = generateFeedback(response);
+                showToast("Response submitted!", "success");
+            }
+
+            function generateFeedback(response) {
+                if (response.length < 20) {
+                    return "Try elaborating more with specific examples.";
+                } else if (response.includes("example") || response.includes("experience")) {
+                    return "Great! Highlighting examples makes your answer stronger.";
+                } else {
+                    return "Good response! Consider structuring it with key points.";
+                }
+            }
+
+            return {
+                startAIMockInterview,
+                submitAIResponse
+            };
+        })();
+
+        // ✅ Industry-Specific Interviews
+        const industryQuestions = {
+            "Software Developer": [
+                "Explain object-oriented programming principles.",
+                "What are the advantages of using design patterns?",
+                "What is the difference between multithreading and multiprocessing?",
+                "How do you handle debugging in a large application?"
+            ],
+            "Data Scientist": [
+                "What is the difference between supervised and unsupervised learning?",
+                "Explain the concept of overfitting and how to avoid it.",
+                "What is feature engineering?",
+                "How do you handle missing data in a dataset?"
+            ],
+            "Cybersecurity Analyst": [
+                "How do you secure a web application from attacks?",
+                "What are the different types of cyberattacks?",
+                "Explain the concept of encryption and its types.",
+                "What is multi-factor authentication (MFA) and why is it important?"
+            ],
+            "Cloud Engineer": [
+                "Explain the difference between IaaS, PaaS, and SaaS.",
+                "What are the benefits of using cloud computing?",
+                "How would you secure data in the cloud?",
+                "Explain the concept of serverless architecture."
+            ],
+            "UX/UI Designer": [
+                "What is the difference between UX and UI?",
+                "What is your approach to user research?",
+                "How do you prioritize features in a product design?",
+                "Explain the importance of wireframing and prototyping."
+            ],
+            "Business Analyst": [
+                "How do you handle requirement changes during a project?",
+                "What techniques do you use for stakeholder management?",
+                "Explain the concept of a SWOT analysis.",
+                "How do you prioritize tasks in a project?"
+            ]
+        };
+
+        let currentIndustry = "";
+        let currentQuestionIndex = 0;
+
+        // ✅ Start Industry-Specific Interview
+        function startIndustrySpecificInterview() {
+            const industry = document.getElementById("industry-select").value;
+            if (!industry) {
+                showToast("Please select an industry!", "error");
+                return;
+            }
+
+            currentIndustry = industry;
+            currentQuestionIndex = 0; // Reset the question index when a new industry is selected
+
+            document.getElementById("industry-interview")?.classList.remove("hidden");
+            displayIndustryQuestion();
+        }
+
+        // ✅ Display Industry Question
+        function displayIndustryQuestion() {
+            const questions = industryQuestions[currentIndustry];
+            const questionElement = document.getElementById("industry-question");
+
+            if (questionElement && questions) {
+                questionElement.textContent = `Industry: ${currentIndustry}. Question: ${questions[currentQuestionIndex]}`;
+            }
+        }
+
+        // ✅ Submit Industry Response and Show Next Question
+        function submitIndustryResponse() {
+            const response = document.getElementById("industry-response").value.trim();
+            if (response === "") {
+                showToast("Please provide an answer!", "error");
+                return;
+            }
+
+            showToast("Response submitted!", "success");
+
+            // Move to the next question
+            currentQuestionIndex++;
+
+            // If all questions for the selected industry are done, show a completion message
+            const questions = industryQuestions[currentIndustry];
+            if (currentQuestionIndex >= questions.length) {
+                showToast("You have completed the interview for this industry!", "success");
+                currentQuestionIndex = 0; // Reset for future rounds
+            } else {
+                displayIndustryQuestion();
+            }
+
+            // Clear the response input after submission
+            document.getElementById("industry-response").value = "";
+        }
+
+        function connectPeer() {
+            document.getElementById("peer-interview")?.classList.remove("hidden");
+            showToast("Connecting to peer...", "info");
+            window.open("https://meet.jit.si/YourCustomRoomName", "_blank"); // Replace with a unique room name
+        }
+
+        // ✅ Speech-to-Text for AI Interview
+        function startVoiceRecognition() {
+            if (!window.SpeechRecognition && !window.webkitSpeechRecognition) {
+                showToast("Speech Recognition not supported!", "error");
+                return;
+            }
+
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.start();
+            recognition.onresult = function (event) {
+                document.getElementById("ai-response").value = event.results[0][0].transcript;
+            };
+        }
+
+        // ✅ Toast Notifications
+        function showToast(message, type) {
+            Toastify({
+                text: message,
+                duration: 3000,
+                close: true,
+                gravity: "top",
+                position: "right",
+                backgroundColor: type === "error" ? "red" : "green"
+            }).showToast();
+        }
+
+        // Event Listeners
+        document.getElementById("start-ai-btn")?.addEventListener("click", AIMockInterview.startAIMockInterview);
+        document.getElementById("submit-ai-btn")?.addEventListener("click", AIMockInterview.submitAIResponse);
+        document.getElementById("start-voice-btn")?.addEventListener("click", startVoiceRecognition);
+
+        document.getElementById("industry-dropdown-btn")?.addEventListener("click", () => {
+            document.getElementById("industry-selection")?.classList.remove("hidden");
+        });
+
+        document.getElementById("start-industry-btn")?.addEventListener("click", startIndustrySpecificInterview);
+        document.getElementById("submit-industry-btn")?.addEventListener("click", submitIndustryResponse);
+
+        document.getElementById("peer-interview-btn")?.addEventListener("click", connectPeer);
+
+
+        // Function to toggle the sidebar visibility
+        function toggleSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            const mainContent = document.querySelector('.main-content');
+
+            // Check if sidebar is currently hidden
+            if (sidebar.style.width === '0px' || sidebar.style.display === 'none') {
+                // Show the sidebar
+                sidebar.style.display = 'block';
+                sidebar.style.width = '220px';
+                mainContent.style.marginLeft = '220px'; // Adjust the main content margin
+            } else {
+                // Hide the sidebar
+                sidebar.style.display = 'none';
+                sidebar.style.width = '0px';
+                mainContent.style.marginLeft = '0'; // Remove the margin when sidebar is hidden
+            }
+        }
+
+    </script>
 </body>
-
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/profile.css">
 </head>
 <body>
     <div class="profile-container">
@@ -14,13 +14,65 @@
             <img id="profileImage" src="/images/profile-placeholder.png" alt="Profile Picture">
         </div>
 
-        <h3 id="username">John Doe</h3>
-        <p><strong>Email:</strong> johndoe@example.com</p>
-        <p><strong>Role:</strong> Student</p>
+        <label><strong>Username:</strong></label>
+        <input type="text" id="username" value="John Doe" disabled><br>
+
+        <label><strong>Email:</strong></label>
+        <input type="email" id="email" value="john@example.com" disabled><br>
+
+        <label><strong>Experience Level:</strong></label>
+        <input type="text" id="experience" value="3 Years" disabled><br>
+
+        <label><strong>Qualification:</strong></label>
+        <input type="text" id="qualification" value="B.Tech in CSE" disabled><br>
+
+        <label><strong>Skills:</strong></label>
+        <input type="text" id="skills" value="Java, Python" disabled><br>
 
         <button id="editProfileBtn">Edit Profile</button>
+        <button id="saveProfileBtn" style="display: none;">Save</button>
     </div>
 
-    <script src="scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const editBtn = document.getElementById("editProfileBtn");
+            const saveBtn = document.getElementById("saveProfileBtn");
+            const inputs = document.querySelectorAll("input");
+
+            editBtn.addEventListener("click", function () {
+                // Enable input fields
+                inputs.forEach(input => input.removeAttribute("disabled"));
+                editBtn.style.display = "none";
+                saveBtn.style.display = "inline-block";
+            });
+
+            saveBtn.addEventListener("click", function () {
+                // ✅ Save new values (Currently, this just updates the UI)
+                const userData = {
+                    Username: document.getElementById("username").value,
+                    Email: document.getElementById("email").value,
+                    ExperienceLevel: document.getElementById("experience").value,
+                    Qualification: document.getElementById("qualification").value,
+                    Skills: document.getElementById("skills").value
+                };
+
+                console.log("Updated User Data:", userData);
+
+                // Disable inputs again
+                inputs.forEach(input => input.setAttribute("disabled", true));
+                saveBtn.style.display = "none";
+                editBtn.style.display = "inline-block";
+
+                // 🚀 In a real application, send data to backend
+                // fetch('https://localhost:7121/api/auth/update-profile', {
+                //     method: "POST",
+                //     headers: { "Content-Type": "application/json" },
+                //     body: JSON.stringify(userData)
+                // }).then(response => response.json())
+                // .then(data => console.log("Profile Updated:", data))
+                // .catch(error => console.error("Error updating profile:", error));
+            });
+        });
+    </script>
 </body>
 </html>
